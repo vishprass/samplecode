@@ -1,0 +1,85 @@
+ <!-- BEGIN: main -->
+<div id="content">
+<div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href="{HOST}page/">Create New Page</a></li>
+				<li>{CLRRESULT}</li>
+			   </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="admin">
+                	<table width="734" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td width="734" class="viewadmintitle">PAGE LIST </td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td height="39" align="center" valign="middle" >
+	<form name='searchform' id='searchform' method='post' action='{HOST}page/pages'>
+	<table border="0" cellspacing="5" cellpadding="0" class='searchfield'>
+      <tr>
+        <td class="tabletl">Page Name</td>
+        <td>
+          <input type="text" name="pagename" id="pagename" style="height:16px;" value="{PNAME}" />
+        </td>
+		<td class="tabletl">Page Title</td>
+		<td>
+          <input type="text" name="title" id="title" style="height:16px;" value="{TITLE}" />
+        </td>
+        <td><input type='image' src="{IMAGE}search.gif" alt="search" width="57" height="18" /></td>
+      </tr>
+    </table>
+	</form>
+	</td>
+  </tr>
+   <tr height="6">
+    <td align="right"></td>
+  </tr>  
+  <tr>
+    <td height="29" align="left" valign="middle"></span>
+<div style='color:#ff0000'>{ERR}</div>
+</blockquote>
+<!-- BEGIN: row -->
+ 	<table width="668" border="0" cellspacing="1" cellpadding="0" bgcolor="#c8e4ff" class="tabletl">
+ 	<tr height="25px;">
+ 	<th width="250" valign="middle">Page Name</th>
+	<th width="254" valign="middle">Page Title</th>
+	<th width="160" valign="middle">ACTION</th>
+ 	</tr>
+	<!-- BEGIN: columns -->
+ 	<tr class="tablewhitebg" height="20px;"  >
+ 	<td align="left" style="padding-left:10px;">{DATA.NAME}</td>
+	<td align="left" style="padding-left:10px;">{DATA.TITLE}</td>
+	<td align="center">{DATA.EDIT}&nbsp;<span style="vertical-align:top;">|</span>&nbsp;{DATA.DEL}</td>
+ 	</tr>
+	<!-- END: columns -->
+	<tr class="tablewhitebg">
+            <td colspan='4'>{NORECORD}</td>
+          </tr>
+	</table>
+	<!-- END: row -->
+	
+	</blockquote></td>
+  </tr>
+  <tr height="6">
+    <td align="right"></td>
+  </tr>
+   <tr>
+    <td height="6"><table class="pages" style='width:669px'><tr><td>{PAGINATION}</td></tr></table></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+
+              </div>
+            </div>	
+</div>
+ <!-- END: main -->

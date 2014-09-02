@@ -1,0 +1,17 @@
+ <!-- BEGIN: main -->
+ <div id="content_container">
+ <h1>News </h1>
+  <!-- BEGIN: row -->
+  <div>
+  	<!-- BEGIN: columns -->
+  	<p>{DATA.CREATED}</p>
+  	<p><a href="{HOST}index/press/id={DATA.ID}">{DATA.TITLE}</a></p>
+  	<!-- END: columns -->
+  	</div>
+ <!-- END: row	-->
+ <p align="right">{PAGINATION}</p>
+</div>
+<!--content container div ends-->
+
+</div>				 
+ <!-- END: main -->

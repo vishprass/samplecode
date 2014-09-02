@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/StreamFilters
+END
+StringReplacementFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/StreamFilters/StringReplacementFilter.php
+END
+StringReplacementFilterFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/StreamFilters/StringReplacementFilterFactory.php
+END
+ByteArrayReplacementFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php
+END

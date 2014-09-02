@@ -1,0 +1,50 @@
+<!-- BEGIN: main -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Variant Implex Admin</title>
+<link rel="stylesheet" type="text/css" href="{STYLE}style.php?img={IMAGE}" media="all" />
+<script type="text/javascript">
+function validate_page(field1){
+var filter = /^([a-zA-Z0-9\-])+$/;
+//alert(textValue);
+	if (!filter.test(field1.value))
+	{
+	 alert("Please add Name field with alphanumeric characters and hyphen only");
+	 field1.value='';
+	 setTimeout('document.cms.pagename.focus()', 10);
+	 field1.focus();
+	 return false;
+	}
+return true;
+}
+</script>
+ <script language="javascript">
+ function name_validate(e)
+ {
+ var unicode=e.charCode? e.charCode : e.keyCode;
+ 
+   if((unicode < 48 || unicode > 57) && (unicode < 65 || unicode > 90) && (unicode < 97 || unicode > 122) && (unicode!=8 && unicode!=9 && unicode!=16 && unicode!=46 && unicode!=45 &&  unicode!=32 && unicode!=44))
+  {
+  return false; 
+  }
+    }
+	
+</script>
+</head>
+<body>
+	<div id="wrapper">
+    	<div id="header">
+        	<div id="status">
+            	<span>{LOGOUT}<!--<a href="{HOST}cms/logout/" class="span" style="padding-left:4px;">Logout</a>--></span>
+            </div>
+            <div id="logocontainer">
+        		<div id="logo">
+<img src="{IMAGE}logo.png" alt="logo" />
+                </div>
+                
+            </div>
+        </div>
+	 <div id="contenttop"></div>
+ <!-- END: main -->

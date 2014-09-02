@@ -1,0 +1,84 @@
+<!-- BEGIN: main -->
+<!-- Category content start -->
+<link rel="stylesheet" href="{SCRIPT}lytebox/lytebox.css" type="text/css" media="screen" />
+   <script type="text/javascript" src="{SCRIPT}lytebox/lytebox.js"></script>
+<div id="wrapper">
+<!-- Flash animation start -->
+    <div class="banner_img">
+
+	<div><img src="{IMAGE}users/banner_category.jpg" alt="Product" /></div>
+  
+    </div>
+	
+	
+<!-- Flash animation end -->
+<div id="product">
+<div id="breadcrumb"><a href="#">NEWS</a>
+</div>
+
+
+
+
+  <div id="rightpanel_new">
+    <div class="newshead">Latest News &amp; Events</div>
+   <!-- BEGIN: cde -->
+    <div class="newsbox">
+ 	<div class="img"><img src="{IMAGE}news/thumbnails/{DATA.IMAGE1}" width="73" height="75" alt="News"/></div>  
+    <div class="textnew">
+	
+	<span class="boldtxt"><a href="{DATA.ID1}">{DATA.TITLE1}</a> </span>
+    <span class="tetred">{DATA.CREATED1}</span>
+    <span class="txtnormal">{DATA.NEWS1}...{DATA.LINK}more</a> </span>
+   
+	</div>
+    <div class="lineimg"></div> 
+    </div>
+  
+     <!-- END: cde -->
+   
+  <!-- 
+    <div id="mar_box">  
+    <div class="clicklink"><a href="#">Click here »</a></div>
+    </div>-->
+            
+    </div>
+
+
+
+
+  <!-- Category page 1 text start -->
+<!-- BEGIN: row -->
+<div id="categorypanel1">
+
+ <!-- END: row -->
+ 
+ <div class="categorydesign">
+<!-- BEGIN: abc -->
+ <table style="width:100%;" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+  </tr>
+  <tr>
+    <td border="0"><b><u><h2>{DATA.TITLE}</h2></u></b></td>
+	<td><span class="tetred">{DATA.CREATED}</span></td>
+  </tr></table>
+	<table>
+	<tr>
+	<td style="width:30%;"><img src="{IMAGE}news/thumbnails/{DATA.IMAGE2}"></td>
+   <td>{DATA.NEWS}</td>
+	 </tr>
+</table>
+<!-- END: abc --> 
+ </div>
+
+ 
+ 
+  <!-- Category panel 1 text end -->
+  
+  
+</div>
+  <!--product content end -->
+</div>
+</div>
+<!-- end #content -->
+<!-- END: main -->

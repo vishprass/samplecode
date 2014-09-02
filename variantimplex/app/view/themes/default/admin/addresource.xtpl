@@ -1,0 +1,61 @@
+ <!-- BEGIN: main -->
+<div id="content">
+       	  <div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href='{HOST}resource/rlist'>Resource List</a></li>
+			   </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+			<div id="admin">
+            	<table width="668" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td class="viewadmintitle">ADD/EDIT RESOURCE</td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right">&nbsp;</td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td height="29" align="center" valign="middle">
+<div style='color:#FF0000'><table><tr><td align='left' class='err'>{ERR}</td><td width='50px'></td></tr></table></div>
+<form name='cms' id="cms" action='{HOST}resource/' method='post'>
+  <table width="312">
+  	
+	<tr>
+	  <td align="left">Resource Name&nbsp;<span style="color:#F00;">*</span>:<input type="hidden" name="id" value="{ID}"></td>
+						<td><input type='text' name='name' id='name' value='{RESOURCENAME}' style='width:150px'></td>
+	</tr> 
+	<tr>
+	  <td align="left">Minimum Level&nbsp;<span style="color:#F00;">*</span>:</td><td>{USERLEVEL}</td></tr>
+	  <tr>  
+  <td colspan='2'>&nbsp;</td>
+  </tr>
+  
+	  <tr>  
+  <td colspan='2' align='center'>
+  <input type='submit' name='submit' value='Submit' class="button">&nbsp;&nbsp;&nbsp; <input type='button' name='btn' value='Cancel' onclick="document.location.href='{HOST}resource/rlist'" class="button"> </td></tr></table>
+</form>
+ </blockquote></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+						</div>
+            </div>
+
+
+        </div>
+
+ <!-- END: main -->

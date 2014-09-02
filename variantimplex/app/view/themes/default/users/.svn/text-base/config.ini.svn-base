@@ -1,0 +1,35 @@
+
+    # This database details will be used for data base connection
+	  [DB]  
+    # DATABASE host name 
+	  host = localhost; 
+    # DATABASE type 
+	  dbtype = mysql; 
+    # DATABASE user Name 
+	  dbuser = fmp; 
+    # DATABASE Password
+	  dbpass = fmp@tli; 
+	# DATABASE name 
+	  dbname = fmp; 
+	  dbpersistent = true; 
+ 	# This SMTP details will be used for sending mails
+	  [MAIL]
+	# SMTP server name 
+	  server = ;
+	# SMTP server port
+	  port = ;
+	# SMTP username 
+	  username = ;
+	# SMTP password 
+	  password = ;				 
+	# This APPLICATION details will be used path   
+	  [FW]		  
+    # base url will be used for viewing application on browser. 
+
+  
+	  base_url = ;
+	#System path for file. 
+	 base_path = ROOT; 
+	 acl = false;
+	 dbsession = false;
+	 contactus = true;

@@ -1,0 +1,21 @@
+<!-- BEGIN: main -->
+<div id="content_container">
+	<div id="content_inner_pages">
+		 <!-- BEGIN: row -->
+  		<div>
+  			<!-- BEGIN: columns -->
+  			<p><a  style="color:blue;" href="{HOST}index/{DATA.PAGENAME}"><h2>{DATA.TITLE}</h2></a></p>
+  			<p>{DATA.BODY}</p>
+  			<p><a  style="text-decoration:none;color:blue;" href="{HOST}index/{DATA.PAGENAME}"><b>{HOST}index/{DATA.PAGENAME}</b></a></p><br /><br />
+  			<!-- END: columns -->
+  		</div>
+ 	<!-- END: row -->
+ 	</div>
+ 	<div><p>{PAGINATION}</p></div>
+	<div><p>{NORESULTS}</p>	</div>
+	</div>
+
+</div>
+</div>
+</div>
+<!-- END: main -->

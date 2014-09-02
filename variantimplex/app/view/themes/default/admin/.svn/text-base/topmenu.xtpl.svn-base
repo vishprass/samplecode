@@ -1,0 +1,29 @@
+<!-- BEGIN: main -->
+<div id="navigation">
+<style type="text/css">
+.tooltip { text-align: right; }
+.tooltip { width: 250px; }
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+}
+#tooltip h3, #tooltip div { margin: 0; }
+</style>
+        	<div class="nav">
+            	<ul>
+                	<li><a href="{HOST}adminPanel/"><span class="homelink">Home</span></a></li>
+					<li><a href="{HOST}users/"><span class="links">User Management</span></a></li>
+                	<li><a href="{HOST}page/pages"><span class="links">Content Management</span></a></li>
+                    <li><a href="{HOST}menu/menulist"><span class="links">Menu Management</span></a></li>
+                    <li><a href="{HOST}tstmny/tstlst"><span class="links">News Management</span></a></li>
+					<li><a href="{HOST}categories/"><span class="links">Categories</span></a></li>
+					<li><a href="{HOST}products/"><span class="links">Products</span></a></li>
+					<li  style="float: right; margin-top: -10px; margin-right: 25px; position: relative;"><a onclick="window.open('{HOST2}help.html#headerConfidentiality','Manual', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px;" href="javascript:void(0)"><img width="24" height="24" style="padding-bottom: 10px;" title="Manual" src="{IMAGE}manual.png"></a></li>					
+                </ul>
+            </div>
+        </div>
+ <!-- END: main -->

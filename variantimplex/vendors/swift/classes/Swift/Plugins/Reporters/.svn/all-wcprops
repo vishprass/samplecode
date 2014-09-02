@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Reporters
+END
+HitReporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Reporters/HitReporter.php
+END
+HtmlReporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Reporters/HtmlReporter.php
+END

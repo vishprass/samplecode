@@ -1,0 +1,116 @@
+ <!-- BEGIN: main -->
+<div id="content">
+<div id="leftcontent">
+          	<div id="leftnav">
+					<ul>
+        			<li><a href='{HOST}menu/menulist'>Menu Lists</a></li>
+					</ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+			<div id="admin">
+            	<table width="668" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td class="viewadmintitle">ADD MENU</td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  
+   
+  <tr>
+   <td><div class='err' style='color:#FF0000' ><table><tr><td width='120px'></td><td>{ERR}</td></tr></table></div>
+<form name='cms' id="cms" action='' method='post'>
+  <table class='wrapper' width='650px' cellpadding="8" cellspacing="8">
+	<tr class='tablewhitebg'>
+	  <td align='left'>Link Type&nbsp;<span style="color:#FF0000">*</span>:<input type='hidden' name='id' id='id' value='{FID}'></td>
+	  <td align="left">External <input type="radio" name="mtype" id="external" value="1" onClick="toggleMenuLink();" {EXTERNALCHK} /> &nbsp;&nbsp;
+	    Internal 
+	    <input type='radio' name='mtype' id='internal' value='2' onclick="toggleMenuLink();" {INTERNALCHK} /></td>
+	</tr>
+	<tr class='tablewhitebg'>
+	  <td align='left'><span id='pmenulbl'>Parent Menues:</span></td>
+	  <td align="left" ><span id='pmenulst'>
+	  	<select name='parent' id='parent' style='width:150px'>
+		<option value='0'>--Main Menu--</option>
+		 {PARENTMENUES}
+		</select>
+		</span></td>
+	</tr>
+	<tr class='tablewhitebg'><td align='left'>Menu Label&nbsp;<span style="color:#FF0000">*</span>:</td>
+	<td align="left"><input type='text' name='menulabel' id="menulabel" value='{MENULABEL}' style="width:150px" /></td></tr> 
+  	<tr class='tablewhitebg'><td align='left'>Menu link&nbsp;<span style="color:#FF0000">*</span>:</td>
+	<td align="left">
+			<span id='menutxt'>
+				<input type='text' name='linktxt' id='linktxt' value='{LINKTXT}' style="width:150px" />
+			</span>
+			<span id='menudropdn'>
+			<select name='linkdrpdn' id='linkdrpdn' style='width:150px'>
+				<option value=''>Select Page</option>
+				{INTERNAL}
+				</select>			
+		   </span>	
+	</td>
+	</tr>
+	<tr class='tablewhitebg'><td align='left'>Publish:</td>
+	<td align="left">
+					<select name='publish' id='publish' style="width:150px">
+						<option value='1' {FPUBLISHSELECT1}>Publish</option>
+						<option value='0' {FPUBLISHSELECT0}>Hidden</option>
+				  </select>	</td></tr>
+<tr>  
+  <td colspan='2'>&nbsp;
+  </td>
+</tr>				  
+  <tr>  
+  <td colspan='2' align='center'>
+  <input type='submit' name='submit' value='Submit' class="button">&nbsp;&nbsp; <input type='button' name='btn' value='Cancel' onclick="Javascript:document.location.href='{HOST}menu/menulist'" class="button"> 
+  </td>
+  </tr>
+  </table>
+</form>
+</blockquote></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+						</div>
+            </div>
+
+
+</div>
+<script language="javascript">
+var linksel = '';
+function chkLinkType(){	
+	if(document.getElementById('external').checked == true){
+		linksel = 1;
+	}
+	if(document.getElementById('internal').checked == true){
+		linksel = 2;
+	}
+if(linksel=='') linksel = 1;
+}
+
+
+function toggleMenuLink(){
+	chkLinkType();
+	if(linksel == '1'){
+		document.getElementById('menutxt').style.display = '';
+		document.getElementById('menudropdn').style.display = 'none';
+	}else{
+		document.getElementById('menutxt').style.display = 'none';
+		document.getElementById('menudropdn').style.display = '';
+	}
+	
+}
+chkLinkType();
+toggleMenuLink();
+</script>
+
+
+ <!-- END: main -->

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Loggers
+END
+ArrayLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Loggers/ArrayLogger.php
+END
+EchoLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Loggers/EchoLogger.php
+END

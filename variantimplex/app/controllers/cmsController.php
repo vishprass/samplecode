@@ -1,0 +1,80 @@
+<?php
+	include_once('userModel.php');
+	class cmsController extends baseController{
+		
+		public function __construct(){
+			define('ADMINIMAGE', IMAGE.'/admin/');
+		} 
+		
+		public function index(){
+			$umdl = new userModel();
+			if(count($_POST)){
+				$err = '';
+				if($_POST['username'] == '') $err .= '<br/> User name must not be blank.'; 
+				if($_POST['password'] == '') $err .= '<br/> Password  must not be blank.';				
+				if(($_POST['username']!='') && ($_POST['password']!='')){
+					$res = $umdl->validateLoginDetails($_POST['username'], $_POST['password']);
+					if($res[0]['id'] == '') {
+						$err .="<br/> Username and password does not match.";
+					} else {
+					    $_SESSION['userid'] = $res[0]['id'];
+						$_SESSION['username'] = $res[0]['username'];
+						$_SESSION['userlevel'] = $res[0]['accesslevel'];
+						header('Location:'.HOST.'adminPanel/');
+					}		
+				}  
+			}
+			
+			$this->admin_head();
+			$this->admin_login($err, $_POST);			
+			$this->admin_foot();
+		} 
+		
+		public function admin_head(){
+			$xtpl = new Xtemplate("admin".DS."header.xtpl");
+			$xtpl->assign('STYLE', STYLE.'admin/');
+			$xtpl->assign('IMAGE', IMAGE.'admin/');
+			$xtpl->assign('HOST', HOST);
+			if(isset($_SESSION['userid'])){
+				$xtpl->assign('LOGOUT', "<a href='{HOST}cms/logout/' class='span' style='padding-right:22px;'>Logout</a>");
+			} else {
+				$xtpl->assign('LOGOUT', "<a href='{HOST}' class='span'>Variant Implex</a>");
+			}
+			$xtpl->parse('main');
+			$xtpl->out('main');
+		}
+		
+		public function admin_foot(){
+			$xtpl = new Xtemplate("admin".DS."footer.xtpl");
+			$xtpl->parse('main');
+			$xtpl->out('main');
+		}
+		
+		public function admin_login($err, $arr){
+			$xtpl = new Xtemplate("admin".DS."login.xtpl");
+			$xtpl->assign('IMAGE', IMAGE.'admin/');
+			$xtpl->assign('ERR', $err);
+			$xtpl->assign('USERNAME', $arr['username']);
+			$xtpl->assign('PASSWORD', $arr['password']);
+			$xtpl->parse('main');
+			$xtpl->out('main');			
+		}
+	
+		public function logout(){
+			session_start();	
+			session_destroy();
+			header('Location: '.HOST.'cms/');
+		}
+		
+		public function top_menu(){
+			$xtpl = new Xtemplate("admin".DS."topmenu.xtpl");
+			$xtpl->assign('STYLE', STYLE.'admin/');
+			$xtpl->assign('IMAGE', IMAGE.'admin/');
+			$xtpl->assign('HOST', HOST);
+			$xtpl->parse('main');
+			$xtpl->out('main');
+		}
+		
+	
+   }
+?>

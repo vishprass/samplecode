@@ -1,0 +1,14 @@
+ <!-- BEGIN: main -->
+<div id="signup">
+  
+  <!-- BEGIN: row -->
+  <div>
+  	<!-- BEGIN: columns -->
+  	<p>{DATA.CREATED}</p>
+  	<p><a href="{HOST}index/press/id={DATA.ID}">{DATA.TITLE}</a></p>
+  	<!-- END: columns -->
+  	</div>
+ <!-- END: row	-->
+ <p align="right"><a href="{HOST}index/news">More >></a></p>
+</div>
+<!-- END: main -->

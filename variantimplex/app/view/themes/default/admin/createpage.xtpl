@@ -1,0 +1,124 @@
+ <!-- BEGIN: main -->
+<script language="javascript" type="text/javascript" src="{SCRIPT}tiny_mce/tiny_mce.js"></script>
+<script>
+tinyMCE.init({
+	mode : "exact",
+	elements : "desc",
+	theme : "advanced",
+	plugins : "style,layer,table,advhr,advimage,advlink,spellchecker,media,searchreplace,contextmenu,paste,directionality,noneditable,visualchars,nonbreaking,xhtmlxtras,imagemanager",
+	theme_advanced_buttons1 : "save,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleprops,removeformat,|,bullist,numlist,outdent,indent,|,sub,sup,|,charmap,advhr,|,link,unlink,image",
+	theme_advanced_buttons2 : "cut,copy,|,paste,pastetext,pasteword,separator,search,replace,separator,tablecontrols,separator,visualaid,|,undo,redo",
+	theme_advanced_buttons3 : "insertlayer,moveforward,movebackward,absolute,|,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,|,cleanup,code",
+	theme_advanced_toolbar_location : "top",
+	theme_advanced_toolbar_align : "left",
+	theme_advanced_path_location : "bottom",
+	
+	extended_valid_elements : "hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style]",
+	theme_advanced_resize_horizontal : false,
+	theme_advanced_resizing : true,
+	nonbreaking_force_tab : true,
+	apply_source_formatting : true,
+	width: "622",
+	height:"350",
+	content_css : "./view/theme1/css/template1/style.css",
+	
+	
+	template_templates : [
+		{
+			title : "Editor Details",
+			src : "./view/theme1/pagetemplate/page1.html",
+			description : "Adds Editor Name and Staff ID"
+		},
+		{
+			title : "Timestamp",
+			src : "./view/theme1/pagetemplate/page2.html",
+			description : "Adds an editing timestamp."
+		}
+	],
+	//theme_advanced_source_editor_width : "630"
+});
+</script>
+
+<div id="content">
+<div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href='{HOST}page/pages'>Page List</a></li>
+			   </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="admin">
+                	<table width="734" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td width="734" class="viewadmintitle">ADD/EDIT PAGE DETAILS </td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td height="29" align="center" valign="middle">
+<div style='color:#FF0000'><table><tr><td align='left' class='err'>{ERR}</td><td width='50px'></td></tr></table></div>
+<form name='cms' id="cms" action='{HOST}page/' method='post'>
+  <table class='wrapper'>
+  	<tr><td align='left'>Name&nbsp;<span style="color:#FF0000">*</span>:<input type='hidden' name='id' id='id' value='{ID}'></td><td align="left"><input type='text' name='name' id='name' style="width:250px" value='{NAME}' onkeypress="return name_validate(event);"/></td></tr> 
+	<tr><td align='left'>Title&nbsp;<span style="color:#FF0000">*</span>:</td><td align="left"><input type='text' name='title' id='title' style="width:250px" value="{TITLE}"  /></td></tr>
+	<tr><td colspan='2' align='left'>Content&nbsp;<span style="color:#FF0000">*</span>:</td></tr> 
+  	<tr><td colspan='2'>
+	<textarea name='desc' id='desc'>{DESC}</textarea>
+	</td></tr>
+	<tr><td colspan='2'>&nbsp;</td></tr>
+	<!-- <tr><td colspan='2'><b>Page Sections:</b></td></tr>-->
+	<tr><td colspan='2'>
+	<table border="0" cellpadding="2" cellspacing="5">
+	<tr>
+	<!-- BEGIN: row -->
+	<!-- BEGIN: coloumns -->
+		<td style="padding-left:5px;">{DATA.NAME} &nbsp;</td><td align="left"><input type="checkbox" name="{DATA.NAME}" value="{DATA.ID}" {DATA.CHECKED}></td><td>&nbsp;</td>
+	<!-- END: coloumns -->
+	<!-- END: row -->
+	</tr>
+	</table></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td align='left'><b>SEO:</b> </td><td>&nbsp;</td></tr>
+	<tr><td align='left'>Page Titles: </td><td align="left"><textarea name='page_title' id='page_title' style="width:450px;height:20px" rows="2">{PAGE_TITLE}</textarea></td></tr>
+  	<tr><td align='left'>Key Words:</td><td align="left"><textarea name='meta' id='meta' style="width:450px;height:20px" rows="2">{META}</textarea></td></tr>
+  <tr><td align='left'>Description:</td><td align="left"><textarea name='description' id='description' style="width:450px;height:20px" rows="2">{DESCRIPTION}</textarea></td></tr>
+
+<tr>
+	<td colspan='2'>&nbsp;</td>
+</tr>
+  <tr>
+	<td colspan='2' align='center'>
+		<input type='submit' name='submit' value='Submit' class="button"/>&nbsp;&nbsp;&nbsp;
+		<input type='button' name='butn' value='Cancel' onclick="Javascript:document.location.href='{HOST}page/pages'" class="button"/>
+	</td>
+	
+ </tr>
+ <tr>
+	<td colspan='2'>&nbsp;</td>
+</tr>
+  	
+  </table>
+</form>
+
+</blockquote></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+
+              </div>
+            </div>
+        </div>
+<script>
+tinyMCE.triggerSave();
+</script>
+<!-- END: main -->

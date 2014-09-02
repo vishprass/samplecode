@@ -1,0 +1,52 @@
+<?php  
+include_once('indexController.php');
+include_once('cmsController.php');
+include_once('cmsModel.php');
+include_once('tstmnyModel.php');
+class searchController extends indexController{
+	public function index(){
+		$this->head();
+		$this->body_left_top();
+		$this->body_right_top();
+		$this->body_left_bottom();		
+		$this->body_right_bottom();
+		$this->foot();
+	}
+	
+	public function body_left_bottom(){
+		$cms = new cmsModel();
+		$keyword = addslashes($_POST['keyword']);
+		$res = $cms->searKeyWord($keyword);
+		$str='';
+		if(count($res)){
+			foreach($res as $key=>$val){
+				$str .= $val.'....';
+				$str .="<a href='".HOST."dynamic/index/".$key."' style='color:#075C88' ><strong>more</strong></a>";
+				$str .='<br/><br/>';
+			}
+		}else{
+			$str = "<h3> NO Record found.</h3>";
+		}
+		$xtpl = new Xtemplate("users".DS."bodyinnerleftbottom.xtpl");
+		$xtpl->assign('CONTAINT', $str);
+		$xtpl->parse('main');
+		$xtpl->out('main');
+	}		
+	
+	public function body_right_bottom(){
+		$this->rightmenu();
+	}	
+	
+	public function rightmenu(){
+		$xtpl = new Xtemplate("users".DS."rightmenu.xtpl");
+		$menumodel = new menuModel();
+		$links = $menumodel->getPublishMenues('1', 'topmenu');
+		$xtpl->assign('RIGHTMENU', $links);
+		$xtpl->assign('HOST', HOST);
+		$xtpl->parse('main');
+		$xtpl->out('main');
+	}
+	
+	
+}
+?>

@@ -1,0 +1,88 @@
+ <!-- BEGIN: main -->
+<!-- content start -->
+
+<div id="wrapper">
+
+<!-- Flash animation start -->
+    <div class="flash_banner">
+
+<div class="accordionWrapper" id="accordion1">
+<div class="set set1">
+    <div class="title"><img src="{IMAGE}users/menu1-h.jpg" width="41" height="248" alt="Office Buildings" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-1.jpg" width="715" height="248" alt="Office Buildings" /></div>
+</div>
+
+<div class="set set2">
+    <div class="title"><img src="{IMAGE}users/menu4-h.jpg" width="41" height="248" alt="Cleaning and Maintenance" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-4.jpg" width="715" height="248" alt="Cleaning and Maintenance"/><br />
+</div>
+</div>
+<div class="set set3">
+    <div class="title"><img src="{IMAGE}users/menu5-h.jpg" width="41" height="248" alt="Coffee and Water Delivery"  /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-5.jpg" width="715" height="248" alt="Cleaning and Maintenance"/></div>
+</div>
+<div class="set set4">
+    <div class="title"><img src="{IMAGE}users/menu6-h.jpg" width="41" height="248" alt="Insurance" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-6.jpg" width="715" height="248" alt="Insurance" /></div>
+</div>
+<div class="set set5">
+    <div class="title"><img src="{IMAGE}users/menu7-h.jpg" width="41" height="248" alt="Office Materials" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-7.jpg" width="715" height="248" alt="Office Materials" /></div>
+</div>
+</div> 
+  
+    </div>
+<!-- Flash animation end -->
+
+
+
+<!-- Content text start -->
+<div id="content_login">
+
+ 		<!--<form name='login' id="cms" action='{HOST}index/' method='post'>-->
+		<form name='login' id="cms" action='' method='post'>
+  			<table border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+    			<td colspan="2"><font color="#999999" size="+1">Client Login Page:</font></td>
+   				<td ></td>
+  				</tr>
+				<tr>
+    			<td>&nbsp;</td>
+    			<td>&nbsp;</td>
+  				</tr>
+				<tr>
+    			<td colspan="2"><font color="#CC0000">{WRONG}</font></td>
+  				</tr>
+				<tr>
+    			<td>&nbsp;</td>
+    			<td>&nbsp;</td>
+  				</tr>
+   				<tr>
+    			<td width="100">User Name:<font color="#CC0000"><span>*</span></font></td>
+   				<td width="130"><input type="text" name="username" id="username" class='textbox' value='{USERNAME}' maxlength="50" style='width:120px;' /></td>
+  				</tr>
+  				<tr>
+  				<td colspan="2">&nbsp;</td>
+  				</tr>
+ 				<tr>
+    			<td>Password:<font color="#CC0000"><span>*</span></font></td>
+    			<td><input name="password" type="password" id="password" class='textbox' value='{PASSWORD}' maxlength="50" style='width:120px;'/></td>
+  				</tr>
+  				<tr>
+    			<td>&nbsp;</td>
+    			<td>&nbsp;</td>
+  				</tr>
+				<tr>
+    			<td>&nbsp;</td>
+    			<td>&nbsp;</td>
+  				</tr>
+  				<tr>
+    			<td colspan="2" align="center"><input type='submit' value='submit' alt="submit" /></td>
+    			</tr>
+			</table>
+       </form>
+</div>
+
+</div>
+
+<!-- END: main -->

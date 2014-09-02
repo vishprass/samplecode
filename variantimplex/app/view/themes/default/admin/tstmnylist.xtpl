@@ -1,0 +1,80 @@
+ <!-- BEGIN: main -->
+ <link rel="stylesheet" href="{SCRIPT}lytebox/lytebox.css" type="text/css" media="screen" />
+   <script type="text/javascript" src="{SCRIPT}lytebox/lytebox.js"></script>
+<div id="content">
+       	  <div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href="{HOST}tstmny/"><span class="links">Add Testimonial</span></a> </li>
+				<li>{CLRSULT} </li>
+			   </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="admin">
+                	<table width="734" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td width="734" class="viewadmintitle">TESTIMONIAL LIST</td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td height="39" align="center" valign="middle" >
+	<form name='searchform' id='searchform' method='post' action='{HOST}tstmny/tstlst'>
+	<table border="0" cellspacing="5" cellpadding="0" class='searchfield'>
+      <tr>
+        <td class="tabletl">Title</td>
+        <td>
+          <input type="text" name="title" id="title" style="height:16px;" value="{TITLE}" />
+        </td>
+		<td><input type='image' src="{IMAGE}search.gif" alt="search" width="57" height="18" align="top"/></td>
+      </tr>
+    </table>
+	</form>
+	</td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td><blockquote>
+      <form action="" method="get">
+        <!-- BEGIN: row -->
+		<table width="668" border="0" cellspacing="1" cellpadding="0" bgcolor="#c8e4ff" class="tabletl">
+          <tr>
+            <td width="252" height="25" align="center"><b>Title</b></td>
+            <td width="214" align="center"><b>Created</b></td>
+            <td align="center"><b>Action</b></td>
+          </tr>
+          <!-- BEGIN: columns -->
+		  <tr class="tablewhitebg" height="20px;">
+            <td valign="middle" align="left" style="padding-left:10px;">{DATA.NAME}</td>
+            <td valign="middle" align="center" style="padding-left:10px;">{DATA.CREATED}</td>
+            <td valign="middle" align="center">{DATA.EDIT} <span style="vertical-align:top;">|</span> {DATA.DEL}|</span> {DATA.VIEW}</td>
+          </tr>
+		  <!-- END: columns -->
+		  <tr class="tablewhitebg">
+            <td colspan='5'>{NORECORD}</td>
+          </tr>
+          </table>
+		 <!-- END: row -->	 
+      </form>
+    </blockquote></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"><table class="pages" style='width:669px'><tr><td>{PAGINATION}</td></tr></table></td>
+  </tr>
+</table>
+
+              </div>
+            </div>
+        </div>
+
+ <!-- END: main -->

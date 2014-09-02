@@ -1,0 +1,25 @@
+<!-- BEGIN: main -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Biosfera Admin</title>
+<link rel="stylesheet" type="text/css" href="{STYLE}style.php?img={IMAGE}" media="all" />
+</head>
+<body>
+	<div id="wrapper">
+    	<div id="header">
+        	<div id="status">
+            	<span>{LOGOUT}<!--<a href="{HOST}cms/logout/" class="span" style="padding-left:4px;">Logout</a>--></span>
+            </div>
+            <div id="logocontainer">
+        		<div id="logo">
+<img src="{IMAGE}logo.png" alt="logo" />
+                </div>
+                <div id="tlilogo">
+                	<img src="{IMAGE}tlilogo.jpg" alt="tlilogo" height="68" width="90" title="tlilogo" />
+                </div>
+            </div>
+        </div>
+	 <div id="contenttop"></div>
+ <!-- END: main -->

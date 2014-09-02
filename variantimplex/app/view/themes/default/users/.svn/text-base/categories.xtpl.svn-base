@@ -1,0 +1,107 @@
+<!-- BEGIN: main -->
+<!-- Category content start -->
+
+<link rel="stylesheet" href="{SCRIPT}lytebox/lytebox.css" type="text/css" media="screen" />
+   <script type="text/javascript" src="{SCRIPT}lytebox/lytebox.js"></script>
+<div id="wrapper">
+<!-- Flash animation start -->
+    <div class="banner_img">
+
+	<div><img src="{IMAGE}users/banner_category.jpg" alt="Product" /></div>
+  
+    </div>
+<!-- Flash animation end -->
+<div id="product"> 
+    
+    <div id="rightpanel_new">
+    <div class="newshead">Latest News &amp; Events</div>
+    <!-- BEGIN: cde -->
+    <div class="newsbox">
+ 	<div class="img"><img src="{IMAGE}news/thumbnails/{DATA.IMAGE2}" width="73" height="75" alt="News"/></div>  
+    <div class="textnew">
+	
+	<span class="boldtxt"><a href="{DATA.ID1}">{DATA.TITLE}</a> </span>
+    <span class="tetred">{DATA.CREATED}</span>
+    <span class="txtnormal">{DATA.NEWS}...{DATA.LINK}more</a>  </span>
+   
+	</div>
+    <div class="lineimg"></div> 
+    </div>
+  
+    
+   
+    <!-- END: cde -->
+   <!-- <div id="mar_box">  
+    <div class="clicklink"><a href="#">Click here »</a></div>
+    </div>-->
+            
+    </div>
+      
+
+  <!--<div id="cg_rightpanel">-->
+  <!-- <div class="newshead">Featured Products</div>
+   
+   <!-- best selling product 1 tart -->
+     <div id="cg_box">
+ 	<div class="img"><center><a href="{IMAGE}categories/{DATA.IMAGE1}"  rel="lytebox[vacation]" ><img src="{IMAGE}categories/thumbnails/{DATA.IMAGE1}" width="83" height="75" alt="Product" /></a></center></div>  
+    <div class="textnew">
+    <span class="boldtxt"><a href="#">{DATA.NAME1}</a> </span>
+    <span class="txtnormal">{DATA.DESCRIPTION1}</span>
+    </div>
+    <div class="lineimg"></div> 
+    </div>
+    
+    <!-- best selling product 1 end -->-->
+ <!-- </div>-->
+
+
+  <!-- Category page 1 text start -->
+<!-- BEGIN: row -->
+<div id="categorypanel1">
+ <div class="category_head">{DATA.NAME}</div>
+ <div>{DATA.DESCRIPTION}</div>
+ <!-- END: row -->
+ 
+ <div class="categorydesign">
+<!-- BEGIN: abc -->
+ <table style="width:100%;" border="0" cellspacing="0" cellpadding="0" class="table_category">
+  <tr>
+    <th colspan="4">{DATA.NAME1}</th>
+  </tr>
+  <tr>
+    <td style="width:5%;"><center><a href="{IMAGE}categories/{DATA.IMAGE1}"  rel="lytebox[vacation]" ><img src="{IMAGE}categories/thumbnails/{DATA.IMAGE1}" alt="Sub Category" /></a></td>
+    <td style="width:30%;">{DATA.NAME1}</center><br />
+    <span>{DATA.DESCRIPTION1}</span>
+	</td>
+   
+  </tr>
+</table>
+<!-- END: abc --> 
+ </div>
+<table>
+ <tr>
+    <td height="6"></td>
+  </tr>
+   <tr>
+    <td height="6">
+		<table class="pages" style='width:669px'><tr><td>{PAGINATION}</td></tr></table>
+	</td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+ </table>
+  <!-- Category panel 1 text end -->
+  
+  <!-- Category panel 2 text start -->
+  
+
+
+   <!-- Category panel 2 text end -->
+
+</div>
+  <!--product content end -->
+</div>
+</div>
+<!-- end #content -->
+<!-- END: main -->

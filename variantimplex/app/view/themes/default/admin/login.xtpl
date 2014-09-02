@@ -1,0 +1,34 @@
+ <!-- BEGIN: main -->
+	<div id="content">
+	<div class='err' align='center'>{ERR}</div>   	  
+            <div id="maincontent">
+				<div id="logincontainer">
+   <div class="loginsection">
+  <form name='login' id="cms" action='{HOST}cms/' method='post'>
+  <table width="191" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="61">User Name:</td>
+    <td width="130"><input type="text" name="username" id="username" class='textbox' value='{USERNAME}' maxlength="50" style='width:120px;' /></td>
+  </tr>
+  <tr>
+  	<td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Password:</td>
+    <td><input name="password" type="password" id="password" class='textbox' value='{PASSWORD}' maxlength="50" style='width:120px;'/></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="loginbutton"><input type='image' src="{IMAGE}loginbutton.jpg" alt="loginbutton" /></div></td>
+    </tr>
+</table>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+ <!-- END: main -->

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/dependency_maps
+END
+cache_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/dependency_maps/cache_deps.php
+END
+mime_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/dependency_maps/mime_deps.php
+END
+transport_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/dependency_maps/transport_deps.php
+END

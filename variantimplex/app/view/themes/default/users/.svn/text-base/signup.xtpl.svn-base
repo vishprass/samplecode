@@ -1,0 +1,27 @@
+ <!-- BEGIN: main -->
+<div id="login">
+	<div class="signup">
+  	<h2>Sign Up</h2>
+  	</div>
+   <div class="signup_box">
+     <form id="form1" method="post" action="">
+     <div>
+     	<select name="select" id="select1">
+    	<option>Primary use</option>
+  		</select> 
+  	</div>
+   <div class="input_text_field"><input name="textfield1" type="text" id="textfield1" value="Phone Number" /></div>
+   <div class="input_text_field_small"><input name="textfield2" type="text" id="textfield2" value="Street" /></div>
+   <div class="input_text_field_small_1"><input name="textfield3" type="text" id="textfield3" value="Unit" /></div>
+   <div class="input_text_field"><input name="textfield4" type="text" id="textfield4" value="City" /></div>
+   <div class="input_text_field_small">
+    <select name="select2" id="select2">
+    <option>State</option></select>
+    </div>
+   <div class="input_text_field_small_1"><input name="textfield5" type="text" id="textfield5" value="Zip" /></div>
+   <div class="submit_button"><img src="{IMAGES}/submit.jpg" alt="submit" /></div>
+   <div class="required_field">*required fields</div>
+     </form>
+   </div>
+</div>
+<!-- END: main -->

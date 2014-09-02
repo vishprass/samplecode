@@ -1,0 +1,65 @@
+<!-- BEGIN: main -->
+<link rel="stylesheet" href="{SCRIPT}lytebox/lytebox.css" type="text/css" media="screen" />
+   <script type="text/javascript" src="{SCRIPT}lytebox/lytebox.js"></script>
+<div id="wrapper">
+<!-- Flash animation start -->
+    <div class="banner_img">
+
+	<div><img src="{IMAGE}users/banner_category.jpg" alt="Product" /></div>
+  
+    </div>
+	
+<!-- Flash animation end -->
+<div id="content_container">
+<div id="content_inner_pages">
+<div id="product">
+<div id="breadcrumb">Search results...... <br/><br/>{PRODUCTS}
+</div>
+
+<br/><br/><br/>
+
+ <div id="rightpanel_new">
+    <div class="newshead">Ultimas Noticias</div>
+   <!-- BEGIN: abc -->
+ 
+<br/><br/><br/>
+    <div class="newsbox">
+ 	<div class="img"><img src="{IMAGE}news/thumbnails/{DATA.IMAGE2}" width="73" height="75" alt="News"/></div>  
+    <div class="textnew">
+	
+	<span class="boldtxt">{DATA.TITLE}</span>
+    <span class="tetred">{DATA.CREATED}</span>
+    <span class="txtnormal">{DATA.NEWS}...{DATA.LINK}more</a> </span>
+   
+	</div>
+    <div class="lineimg"></div> 
+    </div>
+  
+     <!-- END: abc -->
+      </div>
+<div><p>{PAGINATION}</p></div>
+			<!-- BEGIN: col -->
+  					
+	    <table style="width:60%;" border="0" cellspacing="0" cellpadding="0" class="table_category">
+            <tr>
+			</tr>
+			<tr>
+			<td style="width:5%;"><center><a href="{IMAGE}products/original/{DATA.IMAGE}"  rel="lytebox[vacation]" >
+			<img src="{IMAGE}products/cropped/{DATA.IMAGE}" alt="Sub Category" /></a></center></td>
+			<td style="width:30%;">{DATA.NAME}<br />
+			 <span>{DATA.DESCRIPTION}</span>
+			 </td>
+			  </tr>
+         </table>
+
+			<!-- END: col -->
+	 
+	  <center><b>  {NORECORDS}</b></center>
+	
+		<div><p>{PAGINATION}</p></div>
+	
+</div>
+</div>
+</div>
+</div>
+<!-- END: main -->

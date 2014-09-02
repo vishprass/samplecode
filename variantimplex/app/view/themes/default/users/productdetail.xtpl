@@ -1,0 +1,96 @@
+<!-- BEGIN: main -->
+<link rel="stylesheet" href="{SCRIPT}lytebox/lytebox.css" type="text/css" media="screen" />
+	   <script type="text/javascript" src="{SCRIPT}lytebox/lytebox.js"></script>
+
+<div id="wrapper">
+<!-- Flash animation start -->
+    <div class="flash_banner">
+
+<div class="accordionWrapper" id="accordion1">
+<div class="set set1">
+    <div class="title"><a href="{DATA1.CATE1}"><img src="{IMAGE}users/menu1-h.jpg" width="41" height="248" alt="Office Buildings" /></a></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-1.jpg" width="715" height="248" alt="Office Buildings" /></div>
+</div>
+
+<div class="set set2">
+    <div class="title"><a href="{DATA2.CATE2}"><img src="{IMAGE}users/menu4-h.jpg" width="41" height="248" alt="Cleaning and Maintenance" /></a></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-4.jpg" width="715" height="248" alt="Cleaning and Maintenance"/><br />
+</div>
+</div>
+<div class="set set3">
+    <div class="title"><a href="{DATA3.CATE3}"><img src="{IMAGE}users/menu5-h.jpg" width="41" height="248" alt="Coffee and Water Delivery"  /></a></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-5.jpg" width="715" height="248" alt="Cleaning and Maintenance"/></div>
+</div>
+<div class="set set4">
+    <div class="title"><a href="{DATA4.CATE4}"><img src="{IMAGE}users/menu6-h.jpg" width="41" height="248" alt="Insurance" /></a></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-6.jpg" width="715" height="248" alt="Insurance" /></div>
+</div>
+<div class="set set5">
+    <div class="title"><a href="{DATA5.CATE5}"><img src="{IMAGE}users/menu7-h.jpg" width="41" height="248" alt="Office Materials" /></a></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-7.jpg" width="715" height="248" alt="Office Materials" /></div>
+</div>
+</div> 
+  
+    </div>
+<!-- Flash animation end -->
+<div id="product">
+<div id="breadcrumb"><a href="#">Category</a> :: <a href="#">{DATA.CATEGORY}</a> :: <a href="{HOST}/productview">Products</a>
+</div>
+<div id="product">
+<div id="productpanel1">
+<div id="imagesbg"> 
+ <div class="imagesdisplay">
+ 	<table>
+ 		<tr>
+		<td style="width:10%;"><a href="{DATA.VIEW}"  rel="lytebox[vacation]" ><img src="{DATA.CROP}" alt="Sub Category" /></a></td>
+		</tr>
+		</table>
+ </div></div>
+ <div class="imagestext"></div>
+ </div>
+ <!-- product panel 2 text start -->
+ <div id="productpanel2">
+ <div class="txt"><strong>{DATA.PRODUCT_NAME} </strong><br />
+{DATA.LONG_DESCRIPTION}
+</div><br/><br/><br/><br/><br/>
+    <div id="table">
+        <table width="100%" border="0" cellspacing="1" cellpadding="1" class="table_color">
+        
+        <tr> 
+         <td style="width:35%;">Item Code:</td>
+         <th>{DATA.CODE}</th>
+        </tr>
+
+        <tr> 
+         <td>Your Price:</td>
+         <th><span class="pricecolor">(&euro;){DATA.PRICE}</span></th>
+        </tr>
+        
+        <tr> 
+         <td>Quantity:</td>
+         <th><input name=""  size="6" type="text" /></th>
+        </tr> 
+         <tr> 
+         <td></td>
+         <th><a class="addtocart" href="#">Buy</a></th>
+        </tr>        
+        </table>
+    </div>
+ 
+ 
+ </div>
+ 
+  <!-- product panel 2 text end -->
+  
+  
+
+
+</div>
+ 
+ 
+
+
+</div>
+</div>
+
+<!-- END: main -->

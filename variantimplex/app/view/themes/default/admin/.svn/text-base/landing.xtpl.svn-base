@@ -1,0 +1,85 @@
+ <!-- BEGIN: main -->
+<div id="content">
+       	  <div id="leftcontent">
+          	<div id="leftnav">
+					<ul>
+        			<li>
+        			  <div align="left">
+        			  	<a href="{HOST}adminPanel/changepass/">Change Password</a>
+        			  </div>
+        			</li>
+					</ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="icons">
+            	<table width="330" cellspacing="0" cellpadding="5" border="0" align="left">
+ 				 <tbody>
+ 				 	<tr>
+    				<td valign="bottom" align="center">
+    					<a onclick="window.open('{HOST2}help.html#_Toc257887875','mywindow', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px; padding-left: 3px;" href="javascript:void(0)">
+    						<img src="{IMAGE}help.png">
+    					</a> 
+    				</td>
+   					<td valign="bottom" align="left">
+                		<a href="{HOST}users/">
+                			<img width="90" height="95" alt="User Management" src="{IMAGE}usermgmt.jpg">
+                		</a>
+                	</td>
+    				<td valign="bottom" align="center">	
+						<a onclick="window.open('{HOST2}help.html#_Toc257887876','mywindow', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px; padding-left: 3px;" href="javascript:void(0)">
+							<img src="{IMAGE}help.png">
+						</a>
+					</td>
+    				<td valign="bottom" align="left">
+    					<a href="{HOST}page/pages">
+    						<img width="90" height="95" alt="Content Management" src="{IMAGE}contentmgt.jpg">
+						</a>
+					</td>
+    				<td valign="bottom" align="center">	
+						<a onclick="window.open('{HOST2}help.html#_Toc257887877','mywindow', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px; padding-left: 3px;" href="javascript:void(0)">
+							<img src="{IMAGE}help.png">
+						</a>	
+					</td>
+    				<td valign="bottom" align="left">
+    					<a href="{HOST}menu/menulist"><img width="90" height="95" class="secrow" alt="Menu Management" src="{IMAGE}menumgmt.jpg"></a>
+    				</td>
+ 					</tr>
+  					<tr>
+    					<td valign="bottom" align="center">
+							<a onclick="window.open('{HOST2}help.html#_Toc257887878','mywindow', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px; padding-left: 3px;" href="javascript:void(0)">
+								<img src="{IMAGE}help.png">
+							</a>		
+						</td>
+    					<td valign="bottom" align="left">
+    						<a href="{HOST}tstmny/tstlst"><img width="90" height="95" alt="News Management" src="{IMAGE}newsmgmt.jpg"></a>
+    					</td>
+    					<td valign="bottom" align="center">	
+							<a onclick="window.open('{HOST2}help.html#_Toc257887879','mywindow', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px; padding-left: 3px;" href="javascript:void(0)">
+							<img src="{IMAGE}help.png">
+							</a>	
+						</td>
+    					<td valign="bottom" align="left">
+    						<a href="{HOST}adcus/"><img width="90" height="95" class="secrow" alt="Contact Us List" src="{IMAGE}contactus.jpg"></a>
+    					</td>
+    					<!--
+    					<td valign="bottom" align="center">
+							<a onclick="window.open('{HOST2}help.html#_Toc257887880','mywindow', 'left=20,top=20,width=800,height=500,fullscreen=yes,scrollbars=1');" style="width: 10px; padding-left: 3px;" href="javascript:void(0)">
+								<img src="{IMAGE}help.png">
+							</a>		
+						</td>
+    					<td valign="bottom" align="left">
+    						<a href="{HOST}partners/">
+    							<img width="90" height="95" class="secrow" alt="Clients List" src="{IMAGE}clientlist.jpg">
+    						</a>
+    					</td>
+    					-->
+  						</tr>
+					</tbody>
+				</table>
+                
+                </div>
+                <div style="padding-right:20px;">&nbsp;</div>
+            </div>
+        </div>
+ <!-- END: main -->

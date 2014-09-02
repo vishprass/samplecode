@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins
+END
+BandwidthMonitorPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/BandwidthMonitorPlugin.php
+END
+AntiFloodPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/AntiFloodPlugin.php
+END
+LoggerPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/LoggerPlugin.php
+END
+Logger.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Logger.php
+END
+Sleeper.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Sleeper.php
+END
+Timer.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Timer.php
+END
+DecoratorPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/DecoratorPlugin.php
+END
+ReporterPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/ReporterPlugin.php
+END
+Reporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/Reporter.php
+END
+PopBeforeSmtpPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/PopBeforeSmtpPlugin.php
+END
+ThrottlerPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Plugins/ThrottlerPlugin.php
+END

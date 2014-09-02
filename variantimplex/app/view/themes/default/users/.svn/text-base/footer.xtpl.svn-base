@@ -1,0 +1,13 @@
+ <!-- BEGIN: main -->
+ <!-- footer started  -->
+<div id="footer-bgcontent">
+  <div id="footer">
+    <p id="legal">Copyright &copy; 2010 Biosfera. All Rights Reserved. Designed by <a href="http://www.tlisoftware.com" target="_blank">TLI Software Inc</a></p>
+    <p id="links"><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a> | <a href="#">Suggest a Product</a> | <a href="#"> Feedback</a> | <a href="#">Top Searches</a> | <a href="#">All Category</a> | <a href="#">Sitemap</a></p>
+    <p>&nbsp;</p>
+  </div>
+</div>
+<!-- end #footer -->
+</body>
+</html>
+ <!-- END: main -->

@@ -1,0 +1,194 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+}
+.container{
+	background-color: #FFF;
+}
+.blue-strip {
+	background-color: #000034;
+	height: 22px;
+	color: #FFF;
+	padding-top: 7px;
+	padding-right: 10px;
+}
+.blue-strip a {
+	background-color: #000034;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 11px;
+}
+.blue-strip a:hover {
+	background-color: #000034;
+	color: #FFF;
+	text-decoration: underline;
+	font-size: 11px;
+}
+.nav {
+	background-image: url(../../../media/images/users/bg-sub-link.gif);
+	background-repeat: repeat-x;
+	height: 26px;
+	padding-left: 16px;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 11px;
+	padding-top: 10px;
+	display: block;
+}
+.nav a {
+	padding-right: 4px;
+	padding-left: 4px;
+	color: #FFF;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+.nav-sublink {
+	background-image: url(../../../media/images/users/bg-sub-link.gif);
+	background-repeat: repeat-x;
+	height: auto;
+	padding-left: 16px;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 11px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding-right: 16px;
+	background-color: #015183;
+}
+.nav-sublink a {
+	padding-right: 4px;
+	padding-left: 4px;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #04A3EE;
+	display: block;
+}
+.nav-sublink a:hover {
+	color: #FFF;
+	text-decoration: underline;
+	display: block;
+}
+.products-heading{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	padding-bottom: 10px;
+	font-style: normal;
+}
+.testimonials-bg {
+	background-image: url(../../../media/images/users/testimonials-bg.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 193px;
+	padding-left: 22px;
+	height: auto;
+	display: block;
+	padding-top: 72px;
+}
+.testimonials-content{
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+	line-height: 16px;
+	width: 88%;
+	text-align: justify;
+	display: block;
+	
+} 
+.testimonials-content a{
+	font-size: 11px;
+	color: #0372AD;
+	font-weight: normal;
+	display: block;
+	padding-top: 2px;
+	text-decoration: none;
+}
+.testimonials-content a:hover{
+	font-size: 11px;
+	color: #0372AD;
+	font-weight: normal;
+	padding-top: 2px;
+	text-decoration: underline;
+}
+.content {
+	width: 96%;
+}
+.blue-box {
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFF;
+	background-color: #0055AF;
+	text-align: justify;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+p{
+	margin: 0px;
+	line-height: 17px;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 14px;
+	padding-left: 4px;
+	font-size: 11px;
+	color: #595959;
+}
+h1{
+	margin: 0px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #047DBA;
+	padding-top: 16px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 4px;
+	display: block;
+}
+h2{
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #585858;
+	text-decoration: none;
+	line-height: 20px;
+}
+.footer a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+}
+.footer a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: underline;
+}

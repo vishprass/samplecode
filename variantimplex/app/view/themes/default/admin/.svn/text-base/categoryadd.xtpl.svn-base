@@ -1,0 +1,110 @@
+<!-- BEGIN: main -->
+<script language="javascript" src="{SCRIPT}admin/jquery.js"></script>
+<div id="content">
+ <div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href='{HOST}categories/'>Categories List</a></li>
+			  </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="admin">
+                	<table width="734" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td width="734" class="viewadmintitle">ADD/EDIT Categories/Subcategories Details</td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td>
+	<div class='err' style='color:#FF0000' ><table><tr><td width='120px'></td><td>{ERR}</td></tr></table></div>
+<form name='cms' id="cms" action='{HOST}categories/add/' method='post'>
+<input type='hidden' name='id' id='id' value='{ID}'>
+  <table>
+  	<tr height="29">
+  	  <td align='left' width="250">Type&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	<!--  <td align='left' width="445"><input type="text" name="firstname" id="firstname" value="{NAME}" style="width:250px" /></td>
+	-->
+	
+	<td align='left' width="445"><select name="cate" id="cate" style="width:121px;" onchange="showDD();">
+	 <option value="" selected="selected"> Category</option>
+	  <option value="1">SubCategory</option>
+	</select>
+	</td>
+	
+	</tr>
+	
+	
+	
+	
+	
+	<!--<div  id="subcat" style="display:none;">-->
+	
+	<tr>
+    <td colspan="2">             
+				 <table id="pc" style="display:none;">
+				 <tr>
+				  <td align='left' width="250">Parent Category:</td>
+                  <td align='left'><select name="subcates" id="subcates" style="width:180px;">
+                   		<option value="" selected>Select category</option> 
+						{CATSEL}
+                  </select></td>
+	</tr>
+	</table>
+	</td>
+	 </tr>
+	
+	<!--</div>-->
+	  <!-- 
+	  <tr height="29">
+  	  <td align='left'>Access level&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	  <td align='left'><select name="accesslevel" id="accesslevel" style="width:260px; font-size:11px;">
+	  			<option value="">-- Select Access Level --</option>
+				<option value="2" {ACCESSLEVEL2} >Administrator</option>
+				<option value="3" {ACCESSLEVEL3} >Super Admin</option>
+	  		</select>
+	  </td>
+	  </tr>
+	  -->
+	  <tr height="29">
+  	  <td align='left' width="250">Name&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	  <td align='left' width="445"><input type="text" name="name" id="name" value="{NAME}" style="width:250px" /></td>
+	
+	</tr>
+	  <tr height="29">
+  	  <td align='left'>Description&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	  <td align='left'><input type="text" name="description" id="description" value="{DESCRIPTION}" style="width:250px"/></td>
+	  </tr>
+
+  <tr>
+	<td colspan='2' align='center'>
+		<input type='submit' name='submit' value='Submit' class="button" />&nbsp;&nbsp;&nbsp;<input type='button' name='butn' value='Cancel' onClick="Javascript:document.location.href='{HOST}categories/'" class="button"/>	</td>
+ </tr>
+  </table>
+</form>
+
+ </td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+
+              </div>
+            </div>
+</div>
+ <!-- END: main -->

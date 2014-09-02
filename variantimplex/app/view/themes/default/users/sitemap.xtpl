@@ -1,0 +1,15 @@
+ <!-- BEGIN: main -->
+<div id="content_container">
+	<h1>Sitemap	</h1>
+	<div id="content_inner_pages">
+	<!-- BEGIN: app -->
+		<p style="padding-left:30px;">
+			<a href="{HOST}index/{LINK}" style="text-decoration:none;color:#58206D"><b> {NAME}</b></a>
+			<!-- BEGIN: subapp -->
+				{STR}
+			<!-- END: subapp -->
+		</p>
+	<!-- END: app -->
+	</div>
+</div>
+<!-- END: main -->

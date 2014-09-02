@@ -1,0 +1,106 @@
+ <!-- BEGIN: main -->
+<!-- content start -->
+
+<div id="wrapper">
+
+<!-- Flash animation start -->
+    <div class="flash_banner">
+
+<div class="accordionWrapper" id="accordion1">
+<div class="set set1">
+    <div class="title"><img src="{IMAGE}users/menu1-h.jpg" width="41" height="248" alt="Office Buildings" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-1.jpg" width="715" height="248" alt="Office Buildings" /></div>
+</div>
+
+<div class="set set2">
+    <div class="title"><img src="{IMAGE}users/menu4-h.jpg" width="41" height="248" alt="Cleaning and Maintenance" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-4.jpg" width="715" height="248" alt="Cleaning and Maintenance"/><br />
+</div>
+</div>
+<div class="set set3">
+    <div class="title"><img src="{IMAGE}users/menu5-h.jpg" width="41" height="248" alt="Coffee and Water Delivery"  /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-5.jpg" width="715" height="248" alt="Cleaning and Maintenance"/></div>
+</div>
+<div class="set set4">
+    <div class="title"><img src="{IMAGE}users/menu6-h.jpg" width="41" height="248" alt="Insurance" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-6.jpg" width="715" height="248" alt="Insurance" /></div>
+</div>
+<div class="set set5">
+    <div class="title"><img src="{IMAGE}users/menu7-h.jpg" width="41" height="248" alt="Office Materials" /></div>
+    <div class="content"><img src="{IMAGE}users/menu-img-7.jpg" width="715" height="248" alt="Office Materials" /></div>
+</div>
+</div> 
+  
+    </div>
+<!-- Flash animation end -->
+
+<!-- content box start -->
+   <div id="content_box" >
+   
+   <div id="cont1">
+   
+   <div class="cont_box1">
+   <div class="headtext">Catalog Request</div>
+   <div class="text">Onec accumsan malesuada nec sit amet er orem ipsum dolor sit aconsectetuer adipis amet er orem...</div>
+   <div class="clicklink"><a href="#">Click here to request a free catalog »</a></div>
+   </div>
+   </div>
+   
+   <div id="cont2">
+   
+   <div class="cont_box1">
+   <div class="headtext">Promotional Schemes</div>
+   <div class="text">psum dolor sit aconsectetuer adipis cing el auris ferment laoreet aliquam dapibus eget, ...</div>
+   <div class="clicklink"><a href="#">Click here »</a></div>
+   </div>   
+   </div>
+   
+   <div id="cont3">
+   
+    <div class="cont_box1">
+   <div class="headtext">Corporate Gifts</div>
+   <div class="text">Amet er orem ipsum dolor sit aconsectetuer adipiscing el auris ferment laoreet aliquam leo...</div>
+   <div class="clicklink"><a href="#">Click here »</a></div>
+   </div>
+   </div>
+   
+   </div>
+<!-- content box start -->
+
+<!-- Content text start -->
+<div id="content_text">
+
+ {BODY}
+</div>
+
+  
+    
+    <div id="rightpanel_new">
+    <div class="newshead">Latest News &amp; Events</div>
+    <!-- BEGIN: abc -->
+    <div class="newsbox">
+ 	<div class="img"><img src="{IMAGE}news/thumbnails/{DATA.IMAGE2}" width="73" height="75" alt="News"/></div>  
+    <div class="textnew">
+	<span class="boldtxt"><a href="{DATA.ID1}">{DATA.TITLE}</a> </span>
+    <span class="tetred">{DATA.CREATED}</span>
+    <span class="txtnormal">{DATA.NEWS}...{DATA.LINK1}more</a>  </span>
+   
+	</div>
+    <div class="lineimg"></div> 
+    </div>
+  
+    
+   
+    <!-- END: abc -->
+    <!--<div id="mar_box">  
+    <div class="clicklink"><a href="#">Click here »</a></div>
+    </div>-->
+            
+    </div>
+      
+
+
+
+</div>
+
+<!-- END: main -->

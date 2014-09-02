@@ -1,0 +1,20 @@
+ <!-- BEGIN: main -->		
+		<div id="navigation">
+            	<div class="navleft"></div>
+                <div class="nav">
+                	<div class="navmenu">
+                  <div id="myjquerymenu" class="jquerycssmenu">
+					<ul>
+					{TOPMENU}
+					<li><a href='{HOST}contact/'>Contact Us</a></li>
+					<li><a href='{HOST}cms/'>Admin Login</a></li>
+					</ul>
+					<br style="clear: left" />
+					</div>
+			</div>
+			<div class="navmenuicon"></div>
+	  </div>
+		<div class="navright"></div>
+	</div>
+	
+ <!-- END: main -->

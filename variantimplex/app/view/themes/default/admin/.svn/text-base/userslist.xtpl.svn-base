@@ -1,0 +1,99 @@
+ <!-- BEGIN: main -->
+<div id="content">
+       	  <div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href="{HOST}users/add/"><span class="links">Add New User</span></a> </li>
+				<li>{CLRRESULT} </li>
+			   </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="admin">
+                	<table width="734" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td width="734" class="viewadmintitle">USERS LIST </td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td height="39" align="center" valign="middle" >
+	<form name='searchform' id='searchform' method='post' action='{HOST}users/'>
+	<table border="0" cellspacing="5" cellpadding="0" class='searchfield'>
+      <tr>
+        <td class="tabletl">User Name</td>
+        <td>
+          <input type="text" name="username" id="username" value='{USERNAME}' />
+        </td>
+		<td class="tabletl">Email</td>
+		<td>
+          <input type="text" name="email" id="email" value='{EMAIL}'/>
+        </td>
+		<td class="tabletl">Level</td>
+		<td>
+          <select name="accesslevel" id="accesslevel" style="font-size:11px;width:130px;">
+	  			<option value="" selected="selected">Select Access Level</option>
+				<option value="2" {ACCESSLEVEL2} >Administrator</option>
+				<option value="3" {ACCESSLEVEL3} >Super Admin</option>
+	  		</select>
+        </td>
+        <td><input type='image' src="{IMAGE}search.gif" alt="search" width="57" height="18" /></td>
+      </tr>
+    </table>
+	</form>
+	</td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td><blockquote>
+      
+        <!-- BEGIN: row -->
+		<table width="668" border="0" cellspacing="1" cellpadding="0" bgcolor="#c8e4ff" class="tabletl">
+          <tr>
+            <td width="156" height="25" align="center"><b>User Name</b></td>
+            <td width="146" align="center"><b>Email</b></td>
+            <td align="center"><b>Level</b></td>
+			<td align="center"><b>Status</b></td>
+            <td align="center"><b>Action</b></td>
+          </tr>
+          <!-- BEGIN: columns -->
+		   <tr class="tablewhitebg">
+            <td align="left" style="padding-left:10px;" width="156">{DATA.FISTNAME}<br/>{DATA.USERNAME}</td>
+            <td align="left" style="padding-left:10px;" width="146" >{DATA.EMAIL}</td>
+            <td width="119" align="left" style="padding-left:10px;">{DATA.LEVEL}</td>
+			<td width="110" align="center" style="padding-left:10px;">{DATA.STATUS}</td>
+            <td width="131" align="center">{DATA.EDIT} <span style="vertical-align:top;">|</span> {DATA.DEL}</td>
+          </tr>
+		  <!-- END: columns -->
+		  <tr class="tablewhitebg">
+            <td colspan='6'>{NORECORD}</td>
+          </tr>
+          </table>
+		 <!-- END: row -->	 
+  
+    </blockquote></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+   <tr>
+    <td height="6">
+		<table class="pages" style='width:669px'><tr><td>{PAGINATION}</td></tr></table>
+	</td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+
+              </div>
+            </div>
+        </div>
+
+ <!-- END: main -->

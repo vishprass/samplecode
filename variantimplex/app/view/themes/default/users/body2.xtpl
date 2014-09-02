@@ -1,0 +1,164 @@
+<!-- BEGIN: main -->
+<tr>
+    <td height="4"></td>
+  </tr>
+  <tr>
+    <td><table width="800" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="217" valign="top"><table cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="{IMAGE}top-corner.gif" width="217" height="16" /></td>
+          </tr>
+          <tr>
+            <td><div class="nav-sublink">
+              <table width="185" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="products-heading">Products Category</td>
+                </tr>
+                <tr>
+                  <td><div class="nav-sublink">Products1</div></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </div></td>
+          </tr>
+          <tr>
+            <td><img src="{IMAGE}bottom-corner.gif" width="217" height="16" /></td>
+          </tr>
+        </table></td>
+        <td width="4" valign="top">&nbsp;</td>
+        <td valign="top"><img src="{IMAGE}banner.jpg" width="580" height="257" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="800" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="221">&nbsp;</td>
+        <td><table width="579" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="364" align="left" valign="top"><div class="content"><h1>{TITLE}</h1>
+            {BODY_CONTENT}
+            <table width="100%">
+  <tr>
+    <td><div class="blue-box"><img src="{IMAGE}people.gif" width="114" height="89" align="left" />Community Help brings together Help, instruction, support articles, videos, blogs, and examples from Adobe and community experts around the world. The Adobe custom search engine helps you find the best content available whether it’s produced by Adobe or its user community. Results from online product Help are included whenever you search Community Help.</div></td>
+  </tr>
+</table>
+
+            
+            
+            
+            
+            
+            </div>
+            
+            
+            
+            
+            </td>
+            <td width="215"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div class="testimonials-bg">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+       <!-- BEGIN: testimonial -->
+	    <tr>
+          <td>
+		   <div class="testimonials-content">  </div></td>
+          </tr>
+		 <!-- END: testimonial -->
+        
+        <tr>
+          <td>&nbsp;</td>
+          </tr>
+        <tr>
+          <td>&nbsp;</td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  </table>
+</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2" align="left" valign="top"><object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="554" height="85">
+              <param name="movie" value="{FLASH}scroller.swf" />
+              <param name="quality" value="high" />
+              <param name="wmode" value="opaque" />
+              <param name="swfversion" value="6.0.65.0" />
+              <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+              <param name="expressinstall" value="Scripts/expressInstall.swf" />
+              <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+              <!--[if !IE]>-->
+              <object type="application/x-shockwave-flash" data="flash/scroller.swf" width="554" height="85">
+                <!--<![endif]-->
+                <param name="quality" value="high" />
+                <param name="wmode" value="opaque" />
+                <param name="swfversion" value="6.0.65.0" />
+                <param name="expressinstall" value="{SCRIPT}expressInstall.swf" />
+                <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                <div>
+                  <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                  <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                </div>
+                <!--[if !IE]>-->
+              </object>
+              <!--<![endif]-->
+            </object></td>
+            </tr>
+          <tr>
+            <td align="left" valign="top">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="4" bgcolor="#818181"></td>
+  </tr>
+  <tr>
+    <td height="7"></td>
+  </tr>
+<!-- END: main -->

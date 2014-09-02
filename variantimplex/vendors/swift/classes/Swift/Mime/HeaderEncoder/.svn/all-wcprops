@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Mime/HeaderEncoder
+END
+QpHeaderEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php
+END
+Base64HeaderEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php
+END

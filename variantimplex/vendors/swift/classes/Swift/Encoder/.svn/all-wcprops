@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Encoder
+END
+QpEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Encoder/QpEncoder.php
+END
+Rfc2231Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Encoder/Rfc2231Encoder.php
+END
+Base64Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Encoder/Base64Encoder.php
+END

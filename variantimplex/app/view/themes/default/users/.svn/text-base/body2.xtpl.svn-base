@@ -1,0 +1,60 @@
+<!-- BEGIN: main -->
+<div id="content_container">
+	<div id="content_inner_pages">
+		<h1>{TITLE}</h1>	
+		{BODY_CONTENT}
+	</div>
+	<!-- BEGIN: signup -->
+		<div id="login">
+		<div class="signup">
+	  	<h2>Sign Up</h2>
+	  	</div>
+	   <div class="signup_box">
+	     <form id="form1" method="post" action="">
+	     <div>
+	     	<select name="select" id="select1">
+	    	<option>Primary use</option>
+	  		</select> 
+	  	</div>
+	   <div class="input_text_field"><input name="textfield1" type="text" id="textfield1" value="Phone Number" /></div>
+	   <div class="input_text_field_small"><input name="textfield2" type="text" id="textfield2" value="Street" /></div>
+	   <div class="input_text_field_small_1"><input name="textfield3" type="text" id="textfield3" value="Unit" /></div>
+	   <div class="input_text_field"><input name="textfield4" type="text" id="textfield4" value="City" /></div>
+	   <div class="input_text_field_small">
+	    <select name="select2" id="select2">
+	    <option>State</option></select>
+	    </div>
+	   <div class="input_text_field_small_1"><input name="textfield5" type="text" id="textfield5" value="Zip" /></div>
+	   <div class="submit_button"><img src="{IMAGES}/submit.jpg" alt="submit" /></div>
+	   <div class="required_field">*required fields</div>
+	     </form>
+	   </div>
+	</div>
+
+	<!-- END: signup -->
+	<br /><br />
+	<br />
+	<!-- BEGIN: news -->
+	<div id="login">
+ 	<div id="signup">
+  	<!-- BEGIN: row -->
+  	<div>
+  		<!-- BEGIN: columns -->
+  		<p>{DATA.CREATED}</p>
+  		<p><a href="{HOST}index/press/id={DATA.ID}">{DATA.TITLE}</a></p>
+  		<!-- END: columns -->
+  	</div>
+ 	<!-- END: row	-->
+ 	<p align="right"><a href="{HOST}index/news">More >></a></p>
+	</div>
+	</div>
+	<!-- END: news -->
+	
+</div>
+<!-- BEGIN: news-flash -->
+<div id="news">
+  <h1>News Flash </h1>
+	<p>Donec elit felis, viverra id lacinia quis, facilisis a metus. Aliquam at velit tortor, sed fermentum dui? Sed non justo enim. Cras cursus nulla nec pretiumfermentum. Pellentesque cursus volutpat nibh non aliquam. Sed sagittis mauris eget nibh eleifend non lacinia nibh commodo. Sed diam arcu, laoreet vel tincidunt non. </p>
+</div>
+<!-- END: news-flash -->
+<!-- END: main -->

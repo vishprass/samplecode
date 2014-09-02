@@ -1,0 +1,910 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel=File-List href="">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073741899 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+h1
+	{mso-style-link:" Char Char3";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-font-kerning:16.0pt;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:" Char Char2";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:" Char Char1";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:none;
+	}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:none;
+	}
+a:hover {
+	color:#06C;
+	text-decoration:underline;
+}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-link:" Char Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:Calibri;}
+span.CharChar2
+	{mso-style-name:" Char Char2";
+	mso-style-locked:yes;
+	mso-style-link:Header;}
+span.CharChar1
+	{mso-style-name:" Char Char1";
+	mso-style-locked:yes;
+	mso-style-link:Footer;}
+span.CharChar
+	{mso-style-name:" Char Char";
+	mso-style-noshow:yes;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:Tahoma;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.ConfidentialityDisclaimerEnquiry, li.ConfidentialityDisclaimerEnquiry, div.ConfidentialityDisclaimerEnquiry
+	{mso-style-name:"Confidentiality\/Disclaimer\/Enquiry";
+	mso-style-update:auto;
+	margin-top:0in;
+	margin-right:-3.05pt;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Arial;
+	color:black;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.ListParagraph, li.ListParagraph, div.ListParagraph
+	{mso-style-name:"List Paragraph";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.ListParagraphCxSpFirst, li.ListParagraphCxSpFirst, div.ListParagraphCxSpFirst
+	{mso-style-name:"List ParagraphCxSpFirst";
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.ListParagraphCxSpMiddle, li.ListParagraphCxSpMiddle, div.ListParagraphCxSpMiddle
+	{mso-style-name:"List ParagraphCxSpMiddle";
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.ListParagraphCxSpLast, li.ListParagraphCxSpLast, div.ListParagraphCxSpLast
+	{mso-style-name:"List ParagraphCxSpLast";
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+span.CharChar3
+	{mso-style-name:" Char Char3";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:16.0pt;
+	font-weight:bold;}
+p.TOCHeading, li.TOCHeading, div.TOCHeading
+	{mso-style-name:"TOC Heading";
+	mso-style-noshow:yes;
+	mso-style-parent:"Heading 1";
+	mso-style-next:Normal;
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#365F91;
+	font-weight:bold;}
+ /* Page Definitions */
+ div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:287863163;
+	mso-list-type:hybrid;
+	mso-list-template-ids:538484504 1188331640 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:447166763;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-969492550 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:546994172;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1542042590 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1018461708;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-512058246 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1098452634;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1606462762 -927017152 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1235748387;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1019609364 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1397707224;
+	mso-list-type:hybrid;
+	mso-list-template-ids:557608200 933415872 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l6:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:1516840542;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1301727922 -480847104 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l7:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l8
+	{mso-list-id:1715109218;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1004264762 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l8:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9
+	{mso-list-id:1721368948;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1962385840 1268971292 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l10
+	{mso-list-id:1754085245;
+	mso-list-type:hybrid;
+	mso-list-template-ids:603380496 -974210540 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l10:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l11
+	{mso-list-id:1780837582;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1739373614 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-bidi-font-family:"Times New Roman";}
+@list l12
+	{mso-list-id:1969431862;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1882371612 1417833904 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l12:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+.list {
+	margin-left: 0.75in; 
+	text-align: justify; 
+	text-indent: -0.25in; 
+	font-family:Calibri;
+	font-size:11pt;
+}
+
+-->
+</style>
+
+</head>
+
+<body >
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><a href="http://www.tlisoftware.com/"
+target="_blank"><img border=0 width=77 height=52
+src="app/view/themes/media/images/admin/help/image001.gif" align=left
+hspace=12 alt="http://www.demo.tlisoftware.com/sign/TLIinc.gif" title=""
+v:shapes="Picture_x0020_1"></a></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>User Manual	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	TLI CMS version 1.0
+<o:p></o:p></b></p>
+
+
+
+
+
+
+<p class=ConfidentialityDisclaimerEnquiry style='text-align:justify'><span
+style='font-size:12.0pt;mso-bidi-font-family:Calibri'><a id="headerConfidentiality" href="#" style="color:#000">Confidentiality/Disclaimer</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-family:
+Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-family:
+Calibri;color:black'>The contents of this document are provided in commercial
+confidence.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-family:
+Calibri'>The information contained in this document represents the views on the
+functionality of TLI Software Inc., on the issues discussed under the
+requirement specifications, as on the date of publication. Due to the dynamic
+nature of Information Technology, TLI Software Inc., makes no warranty as to
+the long-term accuracy of the assessments made herein if anything changes
+related to the published (given) source code delivered at the time of
+product/site release. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-family:
+Calibri;color:black'><o:p></o:p></span><span style='mso-bidi-font-family:
+Calibri;color:black'>All product and company names mentioned herein are
+trademarks or registered trademarks of their respective owners.
+    <o:p></o:p>
+</span></p>
+
+<p class=TOCHeading>Contents</p>
+<br/>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887873">1.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>Introduction<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>4</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887874">2.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>How
+to go about it<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>4</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887875">3.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>User
+Management<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>5</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt;padding-left:10px;'><a href="#adduser">3.1 </a>&nbsp; &nbsp;<a href="#adduser">Add new user </a></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887876">4.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>Content
+Management<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>6</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt; padding-left:10px;'><a href="#addcontent">4.1</a>&nbsp;&nbsp;&nbsp;<a href="#addcontent">Add new content </a></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887877">5.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>Menu
+  Management<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>7</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'>
+<o:p></o:p></span></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt; padding-left:10px;'><a href="#newmenu">5.1</a> &nbsp;&nbsp;<a href="#newmenu">Add new menu</a></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887878">6.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>News
+Management<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>8</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt; padding-left:10px;'><a href="#addnews">6.1</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#addnews">Add News</a></p>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc257887879">7.<span
+style='mso-fareast-font-family:"Times New Roman";color:windowtext;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;</span></span>Sign Up List<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>9</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'></span></a></span></span><span
+style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt'><a href="#_Toc257887880">8.</a>&nbsp;&nbsp;&nbsp;<a href="#_Toc257887880">Client
+List</a>
+<p class=MsoToc1 style='tab-stops:22.0pt right dotted 467.5pt;padding-left:10px;'><a href="#addclient">8.1</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#addclient">Add client</a> </p><br />
+
+
+<h1 style='margin-left:.5in;text-indent:-.25in;mso-list:l8 level1 lfo12'><a
+name="_Toc257887873"></a><a name="_Toc257887776"></a><a name="_Toc257831025"><span
+style='mso-bookmark:_Toc257887776'><span style='mso-bookmark:_Toc257887873'><span
+style='mso-fareast-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span>Introduction</span></span></a></h1>
+
+<p class=MsoNormal style='text-align:justify'>TLI CMS is a content management
+system (CMS) which you can use to build a web site. It is made easy to
+contribute content to a website with the help of this CMS.</p>
+
+<h1 style='margin-left:.5in;text-indent:-.25in;mso-list:l8 level1 lfo12'><a
+name="_Toc257887874"></a><a name="_Toc257887777"></a><a name="_Toc257831026"><span
+style='mso-bookmark:_Toc257887777'><span style='mso-bookmark:_Toc257887874'><span
+style='mso-fareast-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span>How to go about it</span></span></a></h1>
+
+<p class=ListParagraphCxSpFirst style='text-align:justify'>Click on the Admin
+Link in your website &amp; Log in with your valid credentials. If you are
+having ‘Super Admin’ rights you will be having full access rights to add/ edit/
+delete everything on this.</p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri;mso-no-proof:yes'>See the Screenshot given
+below.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:0in;mso-add-space:auto;
+text-align:justify;padding-left:30px'><img width=581 height=320
+src="app/view/themes/media/images/admin/help/image005.jpg" v:shapes="_x0000_i1025"><o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'>For users with normal admin rights, the
+User Management module will be absent.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><strong><span
+style='font-family:Calibri'>Change Password<o:p></o:p></span></strong></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'>Click on the change password link and
+enter your old password, new password and confirm password and submit. Screen
+shot below.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri;mso-no-proof:yes'><img width=528 height=274
+src="app/view/themes/media/images/admin/help/image007.jpg"
+alt="app/view/themes/media/images/admin/help/change pwd.JPG"
+v:shapes="Picture_x0020_4"></span><span style='mso-bidi-font-family:
+Calibri'><o:p></o:p></span></p>
+
+<h1 style='margin-left:.5in;text-indent:-.25in;mso-list:l8 level1 lfo12'><a
+name="_Toc257887875"></a><a name="_Toc257887778"><span style='mso-bookmark:
+_Toc257887875'><span style='mso-bidi-font-size:14.0pt;
+line-height:115%;mso-fareast-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='mso-bidi-font-size:14.0pt;
+line-height:115%'>User Management</span></span></a><span style='mso-bidi-font-size:
+14.0pt;line-height:115%'><o:p></o:p></span></h1>
+
+<p class=ListParagraphCxSpFirst style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'><span
+style='mso-bidi-font-family:Calibri'>	<span style="mso-list:Ignore"><span
+style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>If you have Super Admin rights you will have full access rights to add/ edit/ delete user. For users with normal admin rights, the User Management module will be absent.</span></p>
+<p class=ListParagraphCxSpFirst style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>&nbsp;</p>
+<p class=ListParagraphCxSpFirst style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'><span
+style='mso-bidi-font-family:Calibri'><span style="mso-list:Ignore">1.<span
+style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span> Click on User Management module or link
+  from the tool bar. It will lead you to the user list with add/ edit, delete
+  options available. It also shows the Email, Level and status of the user.
+  <o:p></o:p>
+</span> </p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify'><span style='mso-bidi-font-family:Calibri;mso-no-proof:
+yes'><img width=542 height=305
+src="app/view/themes/media/images/admin/help/image009.jpg"
+alt="app/view/themes/media/images/admin/help/usermngmt.JPG"
+v:shapes="Picture_x0020_6"></span><span style='mso-bidi-font-family:
+Calibri'><o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify'><span style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify;text-indent:.25in'><span
+style='mso-bidi-font-family:Calibri'>You can also search the user list by name
+or email or level.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Edit link will lead to edit form
+with the fields filled in for edit.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Delete link will delete the user
+once after confirmation.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Add New User link will lead to
+add form to be filled in and submitted for user creation.<o:p></o:p></span></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have Super Admin rights you will have full access rights to add/ edit/ delete User. </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For users with normal admin rights, the User Management module will be absent.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>&nbsp;</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'><strong><a id="adduser">ADD NEW USER</a></strong></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This modules helps super administrator to add/edit/delete site administrator. This section is only available for super </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;administrator.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>&nbsp;</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FIELDS</strong></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)<a id="firstname" href="#"> Name</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Super administrator has to enter name of user.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) <a id="accesslevel" href="#">Accesslevel </a>: Super administrator has to set the access level of newly created user.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accesslevel decides the privileges allowed to this user.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Super admin has maximum privileges</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administrator has lower privileges than super admin. </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)<a id="email" href="#"> Email</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Super admin has to provide email address of new user.&nbsp;</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4)&nbsp;<a id="username" href="#">Username</a>&nbsp;: This field will be used for login username. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This field is unique.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5)<a id="password" href="#"> Password</a>&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;Super admin has to provide Password for new user. </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'>&nbsp;</p>
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri;mso-no-proof:yes'><img width=566 height=318
+src="app/view/themes/media/images/admin/help/image011.jpg"
+alt="app/view/themes/media/images/admin/help/user.JPG"
+v:shapes="Picture_x0020_5"></span><span style='mso-bidi-font-family:
+Calibri'><o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpLast style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<h1 style='margin-left:.5in;text-indent:-.25in;mso-list:l8 level1 lfo12'><a
+name="_Toc257887876"></a><a name="_Toc257887779"><span style='mso-bookmark:
+_Toc257887876'><span style='mso-fareast-font-family:Cambria;
+mso-bidi-font-family:Cambria'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span>Content
+Management</span></a></h1>
+
+<p class=ListParagraphCxSpFirst style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'><span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Admin users can update site content.</span></p>
+<p class=ListParagraphCxSpFirst style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'><span
+style='mso-bidi-font-family:Calibri'><span style="mso-list:Ignore">1.<span
+style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Click on Content Management will take you
+  to Page List with add/ edit, delete options available. It shows page name and
+  page title.
+  <o:p></o:p>
+</span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri;mso-no-proof:yes'><img width=572 height=275
+src="app/view/themes/media/images/admin/help/image013.jpg"
+alt="app/view/themes/media/images/admin/help/content.JPG"
+v:shapes="Picture_x0020_7"></span><span style='mso-bidi-font-family:
+Calibri'><o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='text-align:justify'><span
+style='mso-bidi-font-family:Calibri'>You can also search the list by Page Name
+or Page Title.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Edit link will lead to edit form
+with the fields filled in for edit.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Delete link will delete the page
+once after confirmation.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Add New Page link will lead to
+add form to be filled in and submitted for page creation.<o:p></o:p></span></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'>&nbsp;</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'><strong><a id="addcontent">Add new content</a></strong></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This module helps site administrator and super administrator to add dynamic content. </p>
+<br />
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FIELDS</strong></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)<a id="name" href="#"> Name</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: user has to provide a name while creating a page. This name should be unique. </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)<a id="title" href="#"> Title</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : This text will display as title of the browser.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) <a id="content" href="#">Content</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Content will be displayed on body part.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4)<a id="keyword" href="#">Keyword</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : This data will display on meta tag keyword section.  </p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;5) <a id="description" href="#">Description</a>: This data will display on meta tag description section. </span></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l6 level1 lfo3'>&nbsp;</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify'><span style='mso-bidi-font-family:Calibri;mso-no-proof:
+yes'><img width=548 height=346
+src="app/view/themes/media/images/admin/help/image015.jpg"
+alt="app/view/themes/media/images/admin/help/new page.JPG"
+v:shapes="Picture_x0020_8"></span><span style='mso-bidi-font-family:
+Calibri'><o:p></o:p></span></p>
+
+<h1 style='margin-left:.5in;text-indent:-.25in;mso-list:l8 level1 lfo12'><a
+name="_Toc257887877"></a><a name="_Toc257887780"><span style='mso-bookmark:
+_Toc257887877'><span style='mso-fareast-font-family:Cambria;
+mso-bidi-font-family:Cambria'><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span>Menu
+Management</span></a></h1>
+
+<p class=ListParagraph style='margin-left:1.0in;mso-add-space:auto;text-align:
+justify;text-indent:-.25in;mso-list:l10 level1 lfo5'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'><span style='mso-spacerun:yes'> </span>Click
+on Menu Management will take you to Menu List with add/ edit, delete options
+available. It shows page name and page title.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'><span 
+style='mso-bidi-font-family:Calibri;mso-no-proof:yes'><img width=558 height=291
+src="app/view/themes/media/images/admin/help/image017.jpg"
+alt="app/view/themes/media/images/admin/help/menu.JPG" v:shapes="Picture_x0020_11"></span><span
+style='mso-bidi-font-family:Calibri'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'><span
+style='mso-bidi-font-family:Calibri'>You can also search the list by menu name.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpFirst style='margin-left:1.0in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l10 level1 lfo5'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Edit link will lead to edit form
+with the fields filled in for edit.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l10 level1 lfo5'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Delete link will delete the page
+once after confirmation.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l10 level1 lfo5'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Create New Menu will lead to Add
+form to be filled in and submitted.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'><span
+style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p>
+</span><a id="newmenu"><strong>ADD NEW MENU</strong></a></p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'>This module helps administrator to create top menu for frontend section.</p>
+<br />
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FIELDS</strong></p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'>1) <a id="linktype" href="#">Link Type  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: This field decides whether newly created menu will link to an internal page or an external website. </p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'>2) <a id="parentmenu" href="#">Parent Menu</a>: This field describes whether the menu should be a parent menu or a submenu. If the menu is a parent menu select -- Main Menu -- in the drop-down. If the menu is sub-menu select the parent menu from the drop-down. </p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'>3) <a id='menulabel' href="#">Menu Label</a>: This text will display on menu.</p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'>4) <a id='menulink' href="#">Menu Link</a>&nbsp;&nbsp;&nbsp;&nbsp;: This link takes either internal page link or an external URL.</p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'> 5) <a id='publish' href="#">Publish</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: This fields makes a menu visible or hidden as per requirement. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </p>
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'><span
+style='mso-bidi-font-family:Calibri;mso-no-proof:yes'><img width=525 height=287
+src="app/view/themes/media/images/admin/help/image019.jpg"
+alt="app/view/themes/media/images/admin/help/Addmenu.JPG"
+v:shapes="Picture_x0020_14"></span><span style='mso-bidi-font-family:
+Calibri'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-align:justify'><span
+style='mso-bidi-font-family:Calibri'>Depending on the choice you make here, the
+menu will be External/ Internal or Published or Hidden.<o:p></o:p></span></p>
+
+<h1 style='margin-left:.5in;text-indent:-.25in;mso-list:l8 level1 lfo12'><a
+name="_Toc257887878"></a><a name="_Toc257887781"><span style='mso-bookmark:
+_Toc257887878'><span style='mso-bidi-font-size:14.0pt;
+line-height:115%;mso-fareast-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><span style='mso-bidi-font-size:14.0pt;
+line-height:115%'>News Management</span></span></a><span style='mso-bidi-font-size:
+14.0pt;line-height:115%'><o:p></o:p></span></h1>
+
+<p class=ListParagraphCxSpFirst style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;line-height:115%;mso-bidi-font-family:
+Calibri'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on News Management will take you to
+News List with add/ edit, delete options available. It shows Name and date
+on which it is created.
+    <o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify'><span style='mso-bidi-font-family:Calibri;mso-no-proof:
+yes'><img width=549 height=232
+src="app/view/themes/media/images/admin/help/image021.jpg"
+alt="app/view/themes/media/images/admin/help/news.JPG" v:shapes="Picture_x0020_15"></span><span
+style='mso-bidi-font-family:Calibri'><o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify'><span style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify'><span style='mso-bidi-font-family:Calibri'>Search by Name is possible.
+<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Edit link will lead to edit form
+with the fields filled in for edit.<o:p></o:p></span></p>
+
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'><span
+style='mso-bidi-font-family:Calibri'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Delete link will delete the page
+once after confirmation.</span></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='mso-bidi-font-family:Calibri'>Click on Add News will lead to add form to
+  be filled in and submitted.
+  <o:p></o:p>
+</span></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'>&nbsp;</p>
+<p class=MsoNormal style='margin-left:.45in;text-align:justify'><span
+style='mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p>
+</span><a href="#" id="addnews"><strong>ADD NEWS</strong></a></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.55in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FIELDS</strong></p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'>&nbsp;&nbsp;&nbsp;&nbsp; 1) <a href="#" id="ntitle">Title</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: News heading will display on front end.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.75in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l9 level1 lfo6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) <a href="#" id="ncontent">Content</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: This content will display on news part. </p>
+<h1 style="padding-left:30px;"><a name="_Toc257887879" id="_Toc257887879"></a><a name="_Toc257887782" id="_Toc257887782"> 7. SignUp List</a> </h1>
+<p class="list">1. Click on signup list, it will take you to people who like to subscribe want to FMG partners with delete   options available. It shows Usage, Phone,Street, City and zip of the interested party.<br /></p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="552" height="276" src="app/view/themes/media/images/admin/help/image024.jpg" alt="app/view/themes/media/images/admin/help/image024.jpg" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search by Name   and Email is also possible.</p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Click on Delete will delete the contact  after confirmation. </p>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<h1 style="padding-left:30px;">&nbsp;&nbsp;&nbsp;&nbsp;<a name="_Toc257887880" id="_Toc257887880"></a><a name="_Toc257887782" id="_Toc"> 8.</a> <a name="_Toc257887783" id="_Toc257887783">Client List</a> </h1>
+<p class="list"> Click on Client List will take you to  Client List with add/ edit, delete options available.&nbsp; Company Logo, URL, Client Name and Status are  also visible here.</li>
+</ol>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="535" height="219" src="app/view/themes/media/images/admin/help/image027.jpg" alt="app/view/themes/media/images/admin/help/clientlist.JPG" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search by Client  Name and URL is also possible.</p>
+<p class="list">1.  Click on Edit link will lead to edit form  with the fields filled in for edit.</p>
+<p class="list">2.  Click on Delete link will delete the Client  once after confirmation.</p>
+<p class="list">3.  Click on Add New Client will lead to add  form to be filled in and submitted.</p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" id="addclient"><strong>ADD NEW CLIENT</strong></a></p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;Admin can upload Client images with help of this module.</p>
+<p class=ListParagraphCxSpMiddle style='margin-left:.55in;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l4 level1 lfo2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FIELDS</strong></p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)<a id="companyname" href="#">Company Name   </a>: Name of the client company.</p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)<a id="url" href="#">URL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	: Link of the company</p>
+<p class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)<a id="image" href="#">Image</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Logo image of company. </p>
+<p style="padding-left:40px">
+<img width="535" height="219" src="app/view/themes/media/images/admin/help/image029.jpg" alt="app/view/themes/media/images/admin/help/image029.jpg" /></p>
+<p>&nbsp;</p>
+<p style="font-family:Tahoma; font-size:11px;"><center>Copyright&nbsp;&copy; TLI Software Inc. All rights reserved.</center></p>
+</body>
+</html>

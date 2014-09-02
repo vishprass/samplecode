@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu1{
+	width:840px;
+	height:26px;
+	color:#FFFFFF;
+	float: left;
+	margin: 10px 0px 0px 20px;
+	background-color:#0079c2;
+	border:solid 0px red;
+	}
+	
+.spacerline {
+	margin:0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	text-align:left; 
+	background-image: url(../../../media/images/users/spacer_line.png);
+	background-repeat:no-repeat;
+	height: 24px;
+	background-position: 0px 4px;
+	float:left;
+
+}
+	
+
+ul#menu {padding:0; list-style:none;text-align:left; margin:0 auto;height:28px; width:760px; position:absolute; }
+ul#menu ul {padding:0; margin:0; list-style:none; position:absolute; left:-9999px;}
+ul#menu table {border-collapse:collapse; font-size:1em; float:left; margin:-1px;}
+ul#menu ul {padding:0; margin:0; list-style:none; position:absolute;}
+ul#menu ul li {float:left; margin:0; text-align:left; }
+ul#menu ul li a {display:block; line-height:0px; margin:0; padding:0 0px; background:transparent; width:150px; }
+ul#menu li {
+	display:inline; 
+	margin:0px 15px 0px 15px; 
+	float:left; 
+	/*background-position: 0px 4px;*/
+}
+ul#menu li a {display:inline-block; height:28px; margin:0; line-height:28px; text-decoration:none; 
+color:#fff;}
+
+
+
+
+ul#menu li a.sub {background:url(../images/button-arrow.gif) right top;}
+html>/**/body ul#menu li {display:inline-block; padding:0;}
+* html ul#menu li a.sub {margin-right:3px; }
+* html ul#menu li a {margin-bottom:0px;  }
+ul#menu li a b {display:block; float:left; padding:0 0px 0px 0px; margin:0 0px 0px 0px; cursor:pointer;  }
+ul#menu li span {display:block; float:left; padding:0 0px 0px 0px; margin:0 0px 0px 0px; color: #990000; cursor:pointer;}
+
+ul#menu li a:hover {position:relative; color:#286377; }
+ul#menu li a:hover b {background-position:left bottom;}
+ul#menu li:hover {position:relative;}
+ul#menu li:hover > a {background-position:right bottom; color: #b0cee2;}
+ul#menu li:hover > a b {background-position:left bottom;}
+ul#menu :hover ul {left:1px; width:105px; top:27px;}
+* html ul#menu :hover ul {top:27px;}
+ul#menu :hover ul li {display:block; float:left; margin:0; }
+ul#menu :hover ul li a {display:block; float:left; margin:0px 0px 0px 0px; height:auto; padding: 0px 0px 0px 10px; line-height:24px; width:125px; background:#0079c2; color:#fff;}
+ul#menu :hover ul li a.fly {background:#4b6a02 url(../images/arrow.gif) no-repeat right center;}
+ul#menu :hover ul li a:hover {background:#286377; color:#fff;}
+ul#menu :hover ul li:hover > a {background:#286377; color:#fff;}
+ul#menu :hover ul li a.fly:hover {background:#286377 url(arrow-over.gif) no-repeat right center;}
+ul#menu :hover ul li:hover > a.fly {background:#6d2c84 url(arrow-over.gif) no-repeat right center;}
+ul#menu :hover ul ul {left:-9999px;}
+ul#menu :hover ul :hover ul {left:105px; top:0; width:150px;}
+ul#menu :hover ul :hover ul li {display:block; float:left; margin:0; border-bottom:1px solid #fff;}
+ul#menu :hover ul :hover ul li a {display:block; float:left; margin:0; height:25px; line-height:25px; background:#bbb; color:#fff;}
+ul#menu :hover ul :hover ul li a:hover {color:#fff; background:#840;}

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models
+END
+contactModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/contactModel.php
+END
+partnerModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/partnerModel.php
+END
+newsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/newsModel.php
+END
+categoryModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/categoryModel.php
+END
+tstmnyModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/tstmnyModel.php
+END
+userModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/userModel.php
+END
+aclModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/aclModel.php
+END
+cmsModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/cmsModel.php
+END
+contactusModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/contactusModel.php
+END
+menuModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/menuModel.php
+END
+resourceModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/STP/!svn/ver/471/Biosfera/trunk/app/models/resourceModel.php
+END

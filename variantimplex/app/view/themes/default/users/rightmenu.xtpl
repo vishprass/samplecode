@@ -1,0 +1,12 @@
+ <!-- BEGIN: main -->
+				
+		<div id="right">     
+		  <div class="rightnavigation">
+             <ul>
+			 	{RIGHTMENU}
+			</ul>			
+		   </div>
+        </div>
+	</div>		
+		
+ <!-- END: main -->

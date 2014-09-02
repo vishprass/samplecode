@@ -1,0 +1,10 @@
+<!-- BEGIN: main -->
+<div id="content_container" style="height:200px;">
+	<div id="content_inner_pages">
+		<h1>Not Found</h1>	
+		The Page you are looking could not be found.
+		
+	</div>
+</div>
+</div>
+<!-- END: main -->

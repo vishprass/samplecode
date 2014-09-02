@@ -1,0 +1,86 @@
+ <!-- BEGIN: main -->
+<div id="content">
+ <div id="leftcontent">
+          	<div id="leftnav">
+          	  <ul>
+			  	<li><a href='{HOST}users/'>Users List</a></li>
+			  </ul>
+			</div>
+          </div>
+            <div id="rightcontent">
+            	<div id="admin">
+                	<table width="734" border="0" cellspacing="0" cellpadding="0">
+                	  <tr>
+                        <td width="734" class="viewadmintitle">ADD/EDIT USER DETAILS</td>
+              	    </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td>
+	<div class='err' style='color:#FF0000' ><table><tr><td width='120px'></td><td>{ERR}</td></tr></table></div>
+<form name='cms' id="cms" action='{HOST}users/add/' method='post'>
+  <table>
+  	<tr height="29">
+  	  <td align='left' width="250">Name&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	  <td align='left' width="445"><input type="text" name="firstname" id="firstname" value="{FIRSTNAME}" style="width:250px" /></td>
+	  </tr>
+	  <tr height="29">
+  	  <td align='left'>Access level&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	  <td align='left'><select name="accesslevel" id="accesslevel" style="width:260px; font-size:11px;">
+	  			<option value="">-- Select Access Level --</option>
+				<option value="2" {ACCESSLEVEL2} >Administrator</option>
+				<option value="3" {ACCESSLEVEL3} >Client</option>
+	  		</select>
+	  </td>
+	  </tr>
+	  <tr height="29">
+  	  <td align='left'>Email&nbsp;<span style="color:#FF0000">*</span>: </td>
+  	  <td align='left'><input type="text" name="email" id="email" value="{EMAIL}" style="width:250px"/></td>
+	  </tr>
+  	<tr height="29">
+  	  <td align='left'>User Name&nbsp;<span style="color:#FF0000">*</span>:
+  	    <input type='hidden' name='id' id='id' value='{ID}'></td><td align='left'><input type='text' name='username' id='username' style="width:250px" value='{USERNAME}'/>&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  (This will be used as login username)</td></tr> 
+	<tr height="29">
+	  <td align='left'>Password&nbsp;<span style="color:#FF0000">*</span>:</td>
+	  <td align='left'><input type='password' name='password' id='password' style="width:250px" value="{PASSWORD}"/></td>
+   </tr>
+   <tr height="29">
+	  <td align='left'>Confirm Password&nbsp;<span style="color:#FF0000">*</span>:</td>
+	  <td align='left'><input type='password' name='cpassword' id='cpassword' style="width:250px" value="{CPASSWORD}" /></td>
+   </tr>
+   <tr>
+	<td colspan='2'>&nbsp;
+	</td>
+	</tr>
+  <tr>
+	<td colspan='2' align='center'>
+		<input type='submit' name='submit' value='Submit' class="button" />&nbsp;&nbsp;&nbsp;<input type='button' name='butn' value='Cancel' onClick="Javascript:document.location.href='{HOST}users/'" class="button"/>	</td>
+ </tr>
+  </table>
+</form>
+
+ </td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+   <tr>
+    <td height="6"></td>
+  </tr>
+</table>
+
+              </div>
+            </div>
+</div>
+ <!-- END: main -->

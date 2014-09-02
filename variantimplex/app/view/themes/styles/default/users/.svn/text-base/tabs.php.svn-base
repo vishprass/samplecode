@@ -1,0 +1,39 @@
+<?php
+header('Content-type: text/css');
+$img = $_GET['img']; 
+echo "/* CSS Document */
+ul#menu {padding:0; list-style:none;text-align:center; margin:0 auto;height:41px; width:760px; position:absolute;}
+ul#menu ul {padding:0; margin:0; list-style:none; position:absolute; left:-9999px;}
+ul#menu table {border-collapse:collapse; font-size:1em; float:left; margin:-1px;}
+ul#menu ul {padding:0; margin:0; list-style:none; position:absolute;}
+ul#menu ul li {float:left; margin:0; text-align:left;}
+ul#menu ul li a {display:block; line-height:36px; margin:0; padding:0 10px; background:transparent;  width:150px;}
+ul#menu li {display:inline; margin:0 -2px; text-align:left;}
+ul#menu li a {display:inline-block; height:36px; margin:0;padding:0 20px 0 10px; background:url(".$img."button.gif) right top; line-height:36px; text-decoration:none; 
+color:#fff;}
+ul#menu li a.sub {background:url(".$img."button-arrow.gif) right top;}
+html>/**/body ul#menu li {display:inline-block; padding:0;}
+* html ul#menu li a.sub {margin-right:3px;}
+* html ul#menu li a {margin-bottom:-4px;}
+ul#menu li a b {display:block; height:36px; float:left; padding:0 0 0 10px; background:url(".$img."button.gif) left top; cursor:pointer;}
+ul#menu li a:hover {position:relative; background-position:right bottom; color:#6d2c84;}
+ul#menu li a:hover b {background-position:left bottom;}
+ul#menu li:hover {position:relative;}
+ul#menu li:hover > a {background-position:right bottom; color: #000;}
+ul#menu li:hover > a b {background-position:left bottom;}
+ul#menu :hover ul {left:1px; width:105px; top:36px;}
+* html ul#menu :hover ul {top:36px;}
+ul#menu :hover ul li {display:block; float:left; margin:0; }
+ul#menu :hover ul li a {display:block; float:left; margin:0; height:24px; line-height:24px; width:95px; background:#4b6a02; color:#fff;}
+ul#menu :hover ul li a.fly {background:#4b6a02 url(".$img."arrow.gif) no-repeat right center;}
+ul#menu :hover ul li a:hover {background:#6d2c84; color:#fff;}
+ul#menu :hover ul li:hover > a {background:#6d2c84; color:#fff;}
+ul#menu :hover ul li a.fly:hover {background:#6d2c84 url(".$img."arrow-over.gif) no-repeat right center;}
+ul#menu :hover ul li:hover > a.fly {background:#6d2c84 url(".$img."arrow-over.gif) no-repeat right center;}
+ul#menu :hover ul ul {left:-9999px;}
+ul#menu :hover ul :hover ul {left:105px; top:0; width:150px;}
+ul#menu :hover ul :hover ul li {display:block; float:left; margin:0; border-bottom:1px solid #fff;}
+ul#menu :hover ul :hover ul li a {display:block; float:left; margin:0; height:25px; line-height:25px; background:#bbb; color:#000;}
+ul#menu :hover ul :hover ul li a:hover {color:#fff; background:#840;}
+";
+?>

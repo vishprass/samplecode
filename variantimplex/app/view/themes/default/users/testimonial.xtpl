@@ -1,0 +1,17 @@
+ <!-- BEGIN: main -->
+<div class="testimonials">
+                	<div class="testitop"></div>
+                    <div class="testititle">
+                    	<span class="tleft">Testimonials</span>
+                        <span class="tright">Our Client tell us....</span>
+                    </div>
+                    <div class="testicontextbg">
+                    	<div class="testicontext">
+                        	<span>"We were extremely pleased with both the performance and cost structure that AMI brought to the table. We gave them a score of 9.3/10. They did a superb job and were open and candid with us at all times. AMI really helped us in both the short and long term. We really appreciated the level of professionalism." <br /><span class="ceo">MIKE HUFFAKER, C.M.O.<br />
+WAL-MART CANADA</span> </span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+			</div>
+ <!-- END: main -->

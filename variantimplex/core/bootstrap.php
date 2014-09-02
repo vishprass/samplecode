@@ -1,0 +1,14 @@
+<?php
+date_default_timezone_set(TIME_ZONE);
+//require_once();
+require_once(ROOT.DS.'vendors'.DS.'xtpl'.DS.'xtemplate.class.php');
+require_once('baseController.php');
+require_once("validation.php");
+require_once('Router.php');
+require_once("PDB.php");
+require_once("Acl.php");
+require_once("FWMail.php");
+require_once("Paginated.php");
+require_once("Session.php");
+require_once("Dispatcher.php");
+?>

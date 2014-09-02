@@ -1,0 +1,89 @@
+<!-- BEGIN: main -->
+<link rel="stylesheet" href="{SCRIPT}lytebox/lytebox.css" type="text/css" media="screen" />
+	   <script type="text/javascript" src="{SCRIPT}lytebox/lytebox.js"></script>
+<div id="wrapper">
+
+    <div class="banner_img">
+
+	<div><img src="{IMAGE}users/banner_category.jpg" alt="Product" /></div>
+  
+    </div>
+
+<div id="product">
+
+<div id="breadcrumb"><a href="#">Category</a> :: <a href="#">{DATA.CATEGORY}</a>
+</div>
+
+  <div id="rightpanel_new">
+    <div class="newshead">Latest News &amp; Events</div>
+    <!-- BEGIN: cde -->
+    <div class="newsbox">
+ 	<div class="img"><img src="{IMAGE}news/thumbnails/{DATA.IMAGE2}" width="73" height="75" alt="News"/></div>  
+    <div class="textnew">
+	<span class="boldtxt"><a href="{DATA.ID1}">{DATA.TITLE}</a> </span>
+    <span class="tetred">{DATA.CREATED}</span>
+    <span class="txtnormal">{DATA.NEWS}...{DATA.LINK1}more</a>  </span>
+   
+	</div>
+    <div class="lineimg"></div> 
+    </div>
+  
+    
+   
+    <!-- END: cde -->
+    <!--<div id="mar_box">  
+    <div class="clicklink"><a href="#">Click here »</a></div>
+    </div>-->
+            
+    </div>
+
+
+
+  <!-- Category page 1 text start -->
+<!-- BEGIN: row -->
+<div id="categorypanel1">
+<table border="0" cellspacing="0" cellpadding="0" class="table_category">
+  <tr>
+    <th colspan="4">{DATA.PRODUCT_NAME}</th>
+  </tr>
+  <tr>
+    <td style="width:10%;"><a href="{DATA.VIEW}"  rel="lytebox[vacation]" ><img src="{DATA.THUMB}" alt="TEST" /></a></td>
+    <td valign="top" style="width:30%;">{DATA.DESCRIPTION}<br />
+    <span>Price:($){DATA.PRICE}</span>
+	</td>
+	<td width="5%"><a href="{DATA.DETAIL}" />View Details</a>
+	</td>
+   
+  </tr>
+</table>
+ 
+</div>
+<!-- END: row -->
+
+ 
+
+
+  
+
+
+<table>
+<tr>
+    <td height="6"></td>
+  </tr>
+   <tr>
+    <td height="6">
+		<table class="pages" style='width:669px'><tr><td>{PAGINATION}</td></tr></table>
+	</td>
+  </tr>
+  <tr>
+    <td align="right"><a href="#javascript:;"></a></td>
+  </tr>
+ 
+ </table>
+
+
+
+</div>
+</div>
+
+<!-- END: main -->

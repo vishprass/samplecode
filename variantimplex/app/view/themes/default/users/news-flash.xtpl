@@ -1,0 +1,6 @@
+ <!-- BEGIN: main -->
+<div id="news">
+  <h1>News Flash </h1>
+<p>Donec elit felis, viverra id lacinia quis, facilisis a metus. Aliquam at velit tortor, sed fermentum dui? Sed non justo enim. Cras cursus nulla nec pretiumfermentum. Pellentesque cursus volutpat nibh non aliquam. Sed sagittis mauris eget nibh eleifend non lacinia nibh commodo. Sed diam arcu, laoreet vel tincidunt non. </p>
+</div>
+<!-- END: main -->

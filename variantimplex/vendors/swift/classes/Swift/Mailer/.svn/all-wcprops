@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Mailer
+END
+ArrayRecipientIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Mailer/ArrayRecipientIterator.php
+END
+RecipientIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Framework/!svn/ver/25/Ullook/trunk/vendors/swift/classes/Swift/Mailer/RecipientIterator.php
+END
